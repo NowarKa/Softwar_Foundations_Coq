@@ -1,0 +1,88 @@
+From Coq Require Export String.
+
+Inductive day : Type :=
+  | monday
+  | tuesday
+  | wednesday
+  | thursday
+  | friday
+  | saturday
+  | sunday.
+
+Definition next_weekday (d:day) : day :=
+  match d with
+  | monday => tuesday
+  | tuesday => wednesday
+  | wednesday => thursday
+  | thursday => friday
+  | friday => monday
+  | saturday => monday
+  | sunday => monday
+  end.
+
+Compute (next_weekday tuesday).
+
+Inductive bool : Type :=
+  | true
+  | false.
+
+Definition negb (b:bool) : bool :=
+  match b with
+  | true => false
+  | false => true
+  end.
+
+Definition andb (b1:bool) (b2:bool) : bool :=
+  match b1 with
+  | true => b2
+  | false => false
+  end.
+
+Definition orb (b1:bool) (b2:bool) : bool :=
+  match b1 with
+  | true => true
+  | false => b2
+  end.
+
+Compute (negb true).
+
+Example test_orb1: (orb true false) = true.
+Proof. simpl. reflexivity. Qed.
+Example test_orb2: (orb false false) = false.
+Proof. simpl. reflexivity. Qed.
+Example test_orb3: (orb false true) = true.
+Proof. simpl. reflexivity. Qed.
+Example test_orb4: (orb true true) = true.
+Proof. simpl. reflexivity. Qed.
+
+Notation "x && y" := (andb x y).
+Notation "x || y" := (orb x y).
+
+Example test_orb5: false || false || true = true.
+Proof. simpl. reflexivity. Qed.
+
+Definition nandb (b1:bool) (b2:bool) : bool :=
+  match b1 with
+  | true => negb(b2)
+  | false => true
+  end.
+
+Example test_nanb1: (nandb true false) = true.
+Proof. simpl. reflexivity. Qed.
+Example test_nanb2: (nandb false false) = true.
+Proof. simpl. reflexivity. Qed.
+Example test_nanb3: (nandb false true) = true.
+Proof. simpl. reflexivity. Qed.
+Example test_nanb4: (nandb true true) = false.
+Proof. simpl. reflexivity. Qed.
+
+Module TuplePlayground.
+
+Inductive bit : Type :=
+  | B0
+  | B1.
+
+Inductive nybble : Type :=
+  | bits (b0 b1 b2 b3 : bit).
+
+Check (bits B0 B1 B1 B0) : nybble.
