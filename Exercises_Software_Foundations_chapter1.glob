@@ -1,0 +1,89 @@
+DIGEST 215bac79c98db4448c2da1dd433792be
+FExercises_Software_Foundations_chapter1
+def 177:181 <> nandb
+R187:190 Coq.Init.Datatypes <> bool ind
+binder 184:185 <> b1:1
+R197:200 Coq.Init.Datatypes <> bool ind
+binder 194:195 <> b2:2
+R205:208 Coq.Init.Datatypes <> bool ind
+R221:222 Exercises_Software_Foundations_chapter1 <> b1:1 var
+R233:236 Coq.Init.Datatypes <> true constr
+R241:244 Coq.Init.Datatypes <> negb def
+R246:247 Exercises_Software_Foundations_chapter1 <> b2:2 var
+R254:258 Coq.Init.Datatypes <> false constr
+R263:266 Coq.Init.Datatypes <> true constr
+def 284:293 <> test_nanb1
+R296:296 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R313:316 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R297:301 Exercises_Software_Foundations_chapter1 <> nandb def
+R303:306 Coq.Init.Datatypes <> true constr
+R308:312 Coq.Init.Datatypes <> false constr
+R317:320 Coq.Init.Datatypes <> true constr
+def 363:372 <> test_nanb2
+R375:375 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R393:396 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R376:380 Exercises_Software_Foundations_chapter1 <> nandb def
+R382:386 Coq.Init.Datatypes <> false constr
+R388:392 Coq.Init.Datatypes <> false constr
+R397:400 Coq.Init.Datatypes <> true constr
+def 443:452 <> test_nanb3
+R455:455 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R472:475 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R456:460 Exercises_Software_Foundations_chapter1 <> nandb def
+R462:466 Coq.Init.Datatypes <> false constr
+R468:471 Coq.Init.Datatypes <> true constr
+R476:479 Coq.Init.Datatypes <> true constr
+def 522:531 <> test_nanb4
+R534:534 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R550:553 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R535:539 Exercises_Software_Foundations_chapter1 <> nandb def
+R541:544 Coq.Init.Datatypes <> true constr
+R546:549 Coq.Init.Datatypes <> true constr
+R554:558 Coq.Init.Datatypes <> false constr
+def 776:780 <> andb3
+R786:789 Coq.Init.Datatypes <> bool ind
+binder 783:784 <> b1:4
+R796:799 Coq.Init.Datatypes <> bool ind
+binder 793:794 <> b2:5
+R806:809 Coq.Init.Datatypes <> bool ind
+binder 803:804 <> b3:6
+R814:817 Coq.Init.Datatypes <> bool ind
+R830:831 Exercises_Software_Foundations_chapter1 <> b1:4 var
+R842:845 Coq.Init.Datatypes <> true constr
+R850:853 Coq.Init.Datatypes <> andb def
+R858:859 Exercises_Software_Foundations_chapter1 <> b3:6 var
+R855:856 Exercises_Software_Foundations_chapter1 <> b2:5 var
+R865:869 Coq.Init.Datatypes <> false constr
+R874:878 Coq.Init.Datatypes <> false constr
+def 896:906 <> test_andb31
+R909:909 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R930:933 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R910:914 Exercises_Software_Foundations_chapter1 <> andb3 def
+R916:919 Coq.Init.Datatypes <> true constr
+R921:924 Coq.Init.Datatypes <> true constr
+R926:929 Coq.Init.Datatypes <> true constr
+R934:937 Coq.Init.Datatypes <> true constr
+def 980:990 <> test_andb32
+R993:993 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1015:1018 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R994:998 Exercises_Software_Foundations_chapter1 <> andb3 def
+R1000:1004 Coq.Init.Datatypes <> false constr
+R1006:1009 Coq.Init.Datatypes <> true constr
+R1011:1014 Coq.Init.Datatypes <> true constr
+R1019:1023 Coq.Init.Datatypes <> false constr
+def 1066:1076 <> test_andb33
+R1079:1079 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1101:1104 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1080:1084 Exercises_Software_Foundations_chapter1 <> andb3 def
+R1086:1089 Coq.Init.Datatypes <> true constr
+R1091:1095 Coq.Init.Datatypes <> false constr
+R1097:1100 Coq.Init.Datatypes <> true constr
+R1105:1109 Coq.Init.Datatypes <> false constr
+def 1152:1162 <> test_andb34
+R1165:1165 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1187:1190 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1166:1170 Exercises_Software_Foundations_chapter1 <> andb3 def
+R1172:1175 Coq.Init.Datatypes <> true constr
+R1177:1180 Coq.Init.Datatypes <> true constr
+R1182:1186 Coq.Init.Datatypes <> false constr
+R1191:1195 Coq.Init.Datatypes <> false constr

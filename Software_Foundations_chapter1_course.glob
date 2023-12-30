@@ -1,0 +1,363 @@
+DIGEST b0669e7938150564e2a1f9f5b1bc5a0a
+FSoftware_Foundations_chapter1_course
+R24:29 Coq.Strings.String <> <> lib
+ind 43:45 <> day
+constr 61:66 <> monday
+constr 72:78 <> tuesday
+constr 84:92 <> wednesday
+constr 98:105 <> thursday
+constr 111:116 <> friday
+constr 122:129 <> saturday
+constr 135:140 <> sunday
+scheme 43:45 <> day_rect
+scheme 43:45 <> day_ind
+scheme 43:45 <> day_rec
+scheme 43:45 <> day_sind
+def 155:166 <> next_weekday
+R171:173 Software_Foundations_chapter1_course <> day ind
+binder 169:169 <> d:3
+R178:180 Software_Foundations_chapter1_course <> day ind
+R193:193 Software_Foundations_chapter1_course <> d:3 var
+R204:209 Software_Foundations_chapter1_course <> monday constr
+R214:220 Software_Foundations_chapter1_course <> tuesday constr
+R226:232 Software_Foundations_chapter1_course <> tuesday constr
+R237:245 Software_Foundations_chapter1_course <> wednesday constr
+R251:259 Software_Foundations_chapter1_course <> wednesday constr
+R264:271 Software_Foundations_chapter1_course <> thursday constr
+R277:284 Software_Foundations_chapter1_course <> thursday constr
+R289:294 Software_Foundations_chapter1_course <> friday constr
+R300:305 Software_Foundations_chapter1_course <> friday constr
+R310:315 Software_Foundations_chapter1_course <> monday constr
+R321:328 Software_Foundations_chapter1_course <> saturday constr
+R333:338 Software_Foundations_chapter1_course <> monday constr
+R344:349 Software_Foundations_chapter1_course <> sunday constr
+R354:359 Software_Foundations_chapter1_course <> monday constr
+R378:389 Software_Foundations_chapter1_course <> next_weekday def
+R391:397 Software_Foundations_chapter1_course <> tuesday constr
+ind 412:415 <> bool
+constr 431:434 <> true
+constr 440:444 <> false
+scheme 412:415 <> bool_rect
+scheme 412:415 <> bool_ind
+scheme 412:415 <> bool_rec
+scheme 412:415 <> bool_sind
+def 459:462 <> negb
+R467:470 Software_Foundations_chapter1_course <> bool ind
+binder 465:465 <> b:7
+R475:478 Software_Foundations_chapter1_course <> bool ind
+R491:491 Software_Foundations_chapter1_course <> b:7 var
+R502:505 Software_Foundations_chapter1_course <> true constr
+R510:514 Software_Foundations_chapter1_course <> false constr
+R520:524 Software_Foundations_chapter1_course <> false constr
+R529:532 Software_Foundations_chapter1_course <> true constr
+def 553:556 <> andb
+R562:565 Software_Foundations_chapter1_course <> bool ind
+binder 559:560 <> b1:9
+R572:575 Software_Foundations_chapter1_course <> bool ind
+binder 569:570 <> b2:10
+R580:583 Software_Foundations_chapter1_course <> bool ind
+R596:597 Software_Foundations_chapter1_course <> b1:9 var
+R608:611 Software_Foundations_chapter1_course <> true constr
+R616:617 Software_Foundations_chapter1_course <> b2:10 var
+R623:627 Software_Foundations_chapter1_course <> false constr
+R632:636 Software_Foundations_chapter1_course <> false constr
+def 657:659 <> orb
+R665:668 Software_Foundations_chapter1_course <> bool ind
+binder 662:663 <> b1:12
+R675:678 Software_Foundations_chapter1_course <> bool ind
+binder 672:673 <> b2:13
+R683:686 Software_Foundations_chapter1_course <> bool ind
+R699:700 Software_Foundations_chapter1_course <> b1:12 var
+R711:714 Software_Foundations_chapter1_course <> true constr
+R719:722 Software_Foundations_chapter1_course <> true constr
+R728:732 Software_Foundations_chapter1_course <> false constr
+R737:738 Software_Foundations_chapter1_course <> b2:13 var
+R757:760 Software_Foundations_chapter1_course <> negb def
+R762:765 Software_Foundations_chapter1_course <> true constr
+def 778:786 <> test_orb1
+R789:789 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R804:807 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R790:792 Software_Foundations_chapter1_course <> orb def
+R794:797 Software_Foundations_chapter1_course <> true constr
+R799:803 Software_Foundations_chapter1_course <> false constr
+R808:811 Software_Foundations_chapter1_course <> true constr
+def 854:862 <> test_orb2
+R865:865 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R881:884 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R866:868 Software_Foundations_chapter1_course <> orb def
+R870:874 Software_Foundations_chapter1_course <> false constr
+R876:880 Software_Foundations_chapter1_course <> false constr
+R885:889 Software_Foundations_chapter1_course <> false constr
+def 932:940 <> test_orb3
+R943:943 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R958:961 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R944:946 Software_Foundations_chapter1_course <> orb def
+R948:952 Software_Foundations_chapter1_course <> false constr
+R954:957 Software_Foundations_chapter1_course <> true constr
+R962:965 Software_Foundations_chapter1_course <> true constr
+def 1008:1016 <> test_orb4
+R1019:1019 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1033:1036 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1020:1022 Software_Foundations_chapter1_course <> orb def
+R1024:1027 Software_Foundations_chapter1_course <> true constr
+R1029:1032 Software_Foundations_chapter1_course <> true constr
+R1037:1040 Software_Foundations_chapter1_course <> true constr
+R1098:1101 Software_Foundations_chapter1_course <> andb def
+not 1085:1085 <> :::x_'&&'_x
+R1131:1133 Software_Foundations_chapter1_course <> orb def
+not 1118:1118 <> :::x_'||'_x
+def 1150:1158 <> test_orb5
+R1183:1185 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1175:1178 Software_Foundations_chapter1_course <> :::x_'||'_x not
+R1166:1169 Software_Foundations_chapter1_course <> :::x_'||'_x not
+R1161:1165 Software_Foundations_chapter1_course <> false constr
+R1170:1174 Software_Foundations_chapter1_course <> false constr
+R1179:1182 Software_Foundations_chapter1_course <> true constr
+R1186:1189 Software_Foundations_chapter1_course <> true constr
+def 1236:1240 <> nandb
+R1246:1249 Software_Foundations_chapter1_course <> bool ind
+binder 1243:1244 <> b1:15
+R1256:1259 Software_Foundations_chapter1_course <> bool ind
+binder 1253:1254 <> b2:16
+R1264:1267 Software_Foundations_chapter1_course <> bool ind
+R1280:1281 Software_Foundations_chapter1_course <> b1:15 var
+R1292:1295 Software_Foundations_chapter1_course <> true constr
+R1300:1303 Software_Foundations_chapter1_course <> negb def
+R1305:1306 Software_Foundations_chapter1_course <> b2:16 var
+R1313:1317 Software_Foundations_chapter1_course <> false constr
+R1322:1325 Software_Foundations_chapter1_course <> true constr
+def 1343:1352 <> test_nanb1
+R1355:1355 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1372:1375 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1356:1360 Software_Foundations_chapter1_course <> nandb def
+R1362:1365 Software_Foundations_chapter1_course <> true constr
+R1367:1371 Software_Foundations_chapter1_course <> false constr
+R1376:1379 Software_Foundations_chapter1_course <> true constr
+def 1422:1431 <> test_nanb2
+R1434:1434 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1452:1455 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1435:1439 Software_Foundations_chapter1_course <> nandb def
+R1441:1445 Software_Foundations_chapter1_course <> false constr
+R1447:1451 Software_Foundations_chapter1_course <> false constr
+R1456:1459 Software_Foundations_chapter1_course <> true constr
+def 1502:1511 <> test_nanb3
+R1514:1514 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1531:1534 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1515:1519 Software_Foundations_chapter1_course <> nandb def
+R1521:1525 Software_Foundations_chapter1_course <> false constr
+R1527:1530 Software_Foundations_chapter1_course <> true constr
+R1535:1538 Software_Foundations_chapter1_course <> true constr
+def 1581:1590 <> test_nanb4
+R1593:1593 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1609:1612 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1594:1598 Software_Foundations_chapter1_course <> nandb def
+R1600:1603 Software_Foundations_chapter1_course <> true constr
+R1605:1608 Software_Foundations_chapter1_course <> true constr
+R1613:1617 Software_Foundations_chapter1_course <> false constr
+def 1664:1668 <> andb3
+R1674:1677 Software_Foundations_chapter1_course <> bool ind
+binder 1671:1672 <> b1:18
+R1684:1687 Software_Foundations_chapter1_course <> bool ind
+binder 1681:1682 <> b2:19
+R1694:1697 Software_Foundations_chapter1_course <> bool ind
+binder 1691:1692 <> b3:20
+R1702:1705 Software_Foundations_chapter1_course <> bool ind
+R1718:1719 Software_Foundations_chapter1_course <> b1:18 var
+R1730:1733 Software_Foundations_chapter1_course <> true constr
+R1738:1741 Software_Foundations_chapter1_course <> andb def
+R1743:1744 Software_Foundations_chapter1_course <> b2:19 var
+R1746:1747 Software_Foundations_chapter1_course <> b3:20 var
+R1753:1757 Software_Foundations_chapter1_course <> false constr
+R1762:1766 Software_Foundations_chapter1_course <> false constr
+def 1784:1794 <> test_andb31
+R1797:1797 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1818:1821 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1798:1802 Software_Foundations_chapter1_course <> andb3 def
+R1804:1807 Software_Foundations_chapter1_course <> true constr
+R1809:1812 Software_Foundations_chapter1_course <> true constr
+R1814:1817 Software_Foundations_chapter1_course <> true constr
+R1822:1825 Software_Foundations_chapter1_course <> true constr
+def 1868:1878 <> test_andb32
+R1881:1881 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1903:1906 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1882:1886 Software_Foundations_chapter1_course <> andb3 def
+R1888:1892 Software_Foundations_chapter1_course <> false constr
+R1894:1897 Software_Foundations_chapter1_course <> true constr
+R1899:1902 Software_Foundations_chapter1_course <> true constr
+R1907:1911 Software_Foundations_chapter1_course <> false constr
+ind 1957:1959 <> rgb
+constr 1975:1977 <> red
+constr 1983:1987 <> green
+constr 1993:1996 <> blue
+scheme 1957:1959 <> rgb_rect
+scheme 1957:1959 <> rgb_ind
+scheme 1957:1959 <> rgb_rec
+scheme 1957:1959 <> rgb_sind
+ind 2010:2014 <> color
+constr 2030:2034 <> white
+constr 2040:2044 <> black
+constr 2050:2056 <> primary
+R2063:2065 Software_Foundations_chapter1_course <> rgb ind
+binder 2059:2059 <> p:26
+scheme 2010:2014 <> color_rect
+scheme 2010:2014 <> color_ind
+scheme 2010:2014 <> color_rec
+scheme 2010:2014 <> color_sind
+mod 2077:2091 <> TuplePlayground
+ind 2105:2107 TuplePlayground bit
+constr 2123:2124 TuplePlayground B0
+constr 2130:2131 TuplePlayground B1
+scheme 2105:2107 TuplePlayground bit_rect
+scheme 2105:2107 TuplePlayground bit_ind
+scheme 2105:2107 TuplePlayground bit_rec
+scheme 2105:2107 TuplePlayground bit_sind
+ind 2145:2150 TuplePlayground nybble
+constr 2166:2169 TuplePlayground bits
+R2186:2188 Software_Foundations_chapter1_course TuplePlayground bit ind
+binder 2172:2173 <> b0:31
+binder 2175:2176 <> b1:32
+binder 2178:2179 <> b2:33
+binder 2181:2182 <> b3:34
+scheme 2145:2150 TuplePlayground nybble_rect
+scheme 2145:2150 TuplePlayground nybble_ind
+scheme 2145:2150 TuplePlayground nybble_rec
+scheme 2145:2150 TuplePlayground nybble_sind
+R2197:2211 Software_Foundations_chapter1_course TuplePlayground <> mod
+mod 2224:2236 <> Natplayground
+ind 2250:2252 Natplayground nat
+constr 2268:2268 Natplayground O
+constr 2274:2274 Natplayground S
+R2281:2283 Software_Foundations_chapter1_course <> nat:35 ind
+binder 2277:2277 <> n:37
+scheme 2250:2252 Natplayground nat_rect
+scheme 2250:2252 Natplayground nat_ind
+scheme 2250:2252 Natplayground nat_rec
+scheme 2250:2252 Natplayground nat_sind
+def 2299:2302 Natplayground pred
+R2309:2311 Software_Foundations_chapter1_course Natplayground nat ind
+binder 2305:2305 <> n:38
+R2316:2318 Software_Foundations_chapter1_course Natplayground nat ind
+R2331:2331 Software_Foundations_chapter1_course <> n:38 var
+R2342:2342 Software_Foundations_chapter1_course Natplayground O constr
+R2347:2347 Software_Foundations_chapter1_course Natplayground O constr
+R2353:2353 Software_Foundations_chapter1_course Natplayground S constr
+R2376:2388 Software_Foundations_chapter1_course Natplayground <> mod
+def 2401:2404 <> even
+R2411:2413 Coq.Init.Datatypes <> nat ind
+binder 2407:2407 <> n:40
+R2418:2421 Software_Foundations_chapter1_course <> bool ind
+R2434:2434 Software_Foundations_chapter1_course <> n:40 var
+R2445:2445 Coq.Init.Datatypes <> O constr
+R2451:2454 Software_Foundations_chapter1_course <> true constr
+R2460:2460 Coq.Init.Datatypes <> S constr
+R2462:2462 Coq.Init.Datatypes <> O constr
+R2467:2471 Software_Foundations_chapter1_course <> false constr
+R2477:2477 Coq.Init.Datatypes <> S constr
+R2480:2480 Coq.Init.Datatypes <> S constr
+R2489:2492 Software_Foundations_chapter1_course <> even:41 def
+def 2516:2518 <> odd
+R2525:2527 Coq.Init.Datatypes <> nat ind
+binder 2521:2521 <> n:43
+R2532:2535 Software_Foundations_chapter1_course <> bool ind
+R2542:2545 Software_Foundations_chapter1_course <> negb def
+R2548:2551 Software_Foundations_chapter1_course <> even def
+R2553:2553 Software_Foundations_chapter1_course <> n:43 var
+mod 2565:2575 <> Playground2
+def 2588:2591 Playground2 plus
+R2598:2600 Coq.Init.Datatypes <> nat ind
+binder 2594:2594 <> n:44
+R2608:2610 Coq.Init.Datatypes <> nat ind
+binder 2604:2604 <> m:45
+R2615:2617 Coq.Init.Datatypes <> nat ind
+R2630:2630 Software_Foundations_chapter1_course <> n:44 var
+R2641:2641 Coq.Init.Datatypes <> O constr
+R2646:2646 Software_Foundations_chapter1_course <> m:45 var
+R2652:2652 Coq.Init.Datatypes <> S constr
+R2660:2663 Software_Foundations_chapter1_course <> plus:46 def
+R2669:2669 Coq.Init.Datatypes <> S constr
+R2671:2671 Software_Foundations_chapter1_course <> m:45 var
+def 2691:2695 Playground2 minus
+R2702:2704 Coq.Init.Datatypes <> nat ind
+binder 2698:2698 <> n:48
+binder 2700:2700 <> m:49
+R2709:2711 Coq.Init.Datatypes <> nat ind
+R2727:2727 Software_Foundations_chapter1_course <> m:49 var
+R2724:2724 Software_Foundations_chapter1_course <> n:48 var
+R2738:2738 Coq.Init.Datatypes <> O constr
+R2746:2746 Coq.Init.Datatypes <> O constr
+R2752:2752 Coq.Init.Datatypes <> S constr
+R2758:2758 Coq.Init.Datatypes <> O constr
+R2763:2763 Software_Foundations_chapter1_course <> n:48 var
+R2769:2769 Coq.Init.Datatypes <> S constr
+R2775:2775 Coq.Init.Datatypes <> S constr
+R2783:2787 Software_Foundations_chapter1_course <> minus:50 def
+def 2812:2815 Playground2 mult
+R2824:2826 Coq.Init.Datatypes <> nat ind
+binder 2818:2818 <> n:53
+binder 2820:2820 <> m:54
+R2831:2833 Coq.Init.Datatypes <> nat ind
+R2846:2846 Software_Foundations_chapter1_course <> n:53 var
+R2857:2857 Coq.Init.Datatypes <> O constr
+R2862:2862 Coq.Init.Datatypes <> O constr
+R2868:2868 Coq.Init.Datatypes <> S constr
+R2870:2870 Coq.Init.Datatypes <> O constr
+R2875:2875 Software_Foundations_chapter1_course <> m:54 var
+R2881:2881 Coq.Init.Datatypes <> S constr
+R2889:2892 Software_Foundations_chapter1_course Playground2 plus def
+R2894:2894 Software_Foundations_chapter1_course <> m:54 var
+R2897:2900 Software_Foundations_chapter1_course <> mult:55 def
+R2905:2905 Software_Foundations_chapter1_course <> m:54 var
+R2920:2930 Software_Foundations_chapter1_course Playground2 <> mod
+def 2943:2945 <> exp
+R2954:2956 Coq.Init.Datatypes <> nat ind
+binder 2948:2948 <> n:57
+binder 2950:2950 <> m:58
+R2961:2963 Coq.Init.Datatypes <> nat ind
+R2976:2976 Software_Foundations_chapter1_course <> n:57 var
+R2987:2987 Coq.Init.Datatypes <> O constr
+R2998:2998 Coq.Init.Datatypes <> S constr
+R3006:3009 Coq.Init.Peano <> mult abbrev
+R3011:3011 Software_Foundations_chapter1_course <> m:58 var
+R3014:3016 Software_Foundations_chapter1_course <> exp:59 def
+R3021:3021 Software_Foundations_chapter1_course <> m:58 var
+R3053:3056 Coq.Init.Peano <> plus abbrev
+not 3041:3041 <> ::nat_scope:x_'+'_x
+R3131:3135 Coq.Init.Peano <> minus abbrev
+not 3119:3119 <> ::nat_scope:x_'-'_x
+R3210:3213 Coq.Init.Peano <> mult abbrev
+not 3198:3198 <> ::nat_scope:x_'*'_x
+def 3277:3279 <> eqb
+R3288:3290 Coq.Init.Datatypes <> nat ind
+binder 3282:3282 <> n:61
+binder 3284:3284 <> m:62
+R3294:3297 Software_Foundations_chapter1_course <> bool ind
+R3313:3313 Software_Foundations_chapter1_course <> m:62 var
+R3310:3310 Software_Foundations_chapter1_course <> n:61 var
+R3324:3324 Coq.Init.Datatypes <> O constr
+R3327:3327 Coq.Init.Datatypes <> O constr
+R3332:3335 Software_Foundations_chapter1_course <> true constr
+R3344:3344 Coq.Init.Datatypes <> O constr
+R3349:3353 Software_Foundations_chapter1_course <> false constr
+R3359:3359 Coq.Init.Datatypes <> O constr
+R3367:3371 Software_Foundations_chapter1_course <> false constr
+R3377:3377 Coq.Init.Datatypes <> S constr
+R3383:3383 Coq.Init.Datatypes <> S constr
+R3391:3393 Software_Foundations_chapter1_course <> eqb:63 def
+def 3418:3420 <> leb
+R3429:3431 Coq.Init.Datatypes <> nat ind
+binder 3423:3423 <> n:66
+binder 3425:3425 <> m:67
+R3436:3439 Software_Foundations_chapter1_course <> bool ind
+R3452:3452 Software_Foundations_chapter1_course <> n:66 var
+R3463:3463 Coq.Init.Datatypes <> O constr
+R3468:3471 Software_Foundations_chapter1_course <> true constr
+R3477:3477 Coq.Init.Datatypes <> S constr
+R3497:3497 Software_Foundations_chapter1_course <> m:67 var
+R3512:3512 Coq.Init.Datatypes <> O constr
+R3517:3521 Software_Foundations_chapter1_course <> false constr
+R3531:3531 Coq.Init.Datatypes <> S constr
+R3539:3541 Software_Foundations_chapter1_course <> leb:68 def
+R3589:3591 Software_Foundations_chapter1_course <> eqb def
+not 3576:3576 <> ::nat_scope:x_'=?'_x
+R3648:3650 Software_Foundations_chapter1_course <> leb def
+not 3634:3634 <> ::nat_scope:x_'<=?'_x
