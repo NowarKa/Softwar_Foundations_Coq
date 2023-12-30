@@ -38,3 +38,49 @@ Proof. simpl. reflexivity. Qed.
 Example test_andb34: (andb3 true true false) = false.
 Proof. simpl. reflexivity. Qed.
 
+
+
+(*===================================================*)
+(*=======Exercise: 1 star, standard (factorial)======*)
+(*===================================================*)
+
+Fixpoint factorial (n : nat) : nat :=
+  match n with
+  | O => 1
+  | S n' => mult n (factorial n')
+  end.
+
+Example test_factorial1: (factorial 3) = 6.
+Proof. simpl. reflexivity. Qed.
+Example test_factorial2: (factorial 5) = (mult 10 12).
+Proof. simpl. reflexivity. Qed.
+
+
+
+(*===================================================*)
+(*=========Exercise: 1 star, standard (ltb)==========*)
+(*===================================================*)
+
+Fixpoint leb (n m : nat) : bool :=
+  match n with
+  | O => true
+  | S n' =>
+      match m with
+      | O => false
+      | S m' => leb n' m'
+      end
+  end.
+
+Definition ltb (n m : nat) : bool := 
+  negb (leb m n).
+
+Notation "x <? y" := (ltb x y) (at level 70) : nat_scope.
+
+Example test_ltb1: (ltb 2 2) = false.
+Proof. simpl. reflexivity. Qed.
+Example test_ltb2: (ltb 2 4) = true.
+Proof. simpl. reflexivity. Qed.
+Example test_ltb3: (ltb 4 2) = false.
+Proof. simpl. reflexivity. Qed.
+
+
