@@ -84,3 +84,90 @@ Example test_ltb3: (ltb 4 2) = false.
 Proof. simpl. reflexivity. Qed.
 
 
+
+(*=======================================================*)
+(*=====Exercise: 1 star, standard (plus_id_exercise)=====*)
+(*=======================================================*)
+
+Theorem plus_id_exercise : forall n m p : nat,
+n = m -> m = p -> n + m = n + p.
+
+Proof.
+intros n m p.
+intros H1.
+intros H2.
+rewrite -> H1.
+rewrite -> H2.
+reflexivity.
+Qed.
+
+
+
+(*=======================================================*)
+(*=========Exercise: 1 star, standard (mult_n_1)=========*)
+(*=======================================================*)
+
+Theorem plus_1_n : forall n : nat, 1 + n = S n.
+Proof. intros n. reflexivity. Qed.
+
+Theorem mult_n_O : forall n : nat, 0 = 0 * n.
+Proof. intros n. simpl. reflexivity. Qed.
+
+Theorem commutativite : forall n m : nat, n * m = m * n.
+Admitted.
+
+Theorem mult_n_Sm : forall n m : nat, n * m + n = n * S m.
+Admitted.
+
+Theorem mult_n_1 : forall p : nat, p * 1 = p.
+Proof. 
+intros p. 
+rewrite <- mult_n_Sm. 
+rewrite -> commutativite. 
+rewrite <- mult_n_O.
+rewrite -> plus_O_n.
+reflexivity.
+Qed.
+
+
+
+(*=========================================================*)
+(*======Exercise: 2 stars, standard (andb_true_elim2)======*)
+(*=========================================================*)
+
+Theorem andb_commutative : forall b c, andb b c = andb c b.
+Proof.
+  intros b c. destruct b eqn:Eb.
+  - destruct c eqn:Ec.
+    + reflexivity.
+    + reflexivity.
+  - destruct c eqn:Ec.
+    + reflexivity.
+    + reflexivity.
+Qed.
+
+
+Theorem andb_true_elim2 : forall b c : bool, andb b c = true -> c = true.
+Proof.
+intros b c.
+rewrite <- andb_commutative.
+destruct c eqn:Ec.
+-destruct b eqn:Eb.
+  +reflexivity.
+  +reflexivity.
+-destruct b eqn:Eb.
+  +intros H. rewrite <- H. reflexivity.
+  +intros H. rewrite <- H. reflexivity.
+Qed.
+
+
+
+(*==========================================================*)
+(*======Exercise: 1 star, standard (zero_nbeq_plus_1)=======*)
+(*==========================================================*)
+
+Theorem zero_nbeq_plus_1 : forall n : nat, (eqb 0  (n + 1)) = false.
+
+
+
+

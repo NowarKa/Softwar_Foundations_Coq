@@ -1,5 +1,9 @@
 From Coq Require Export String.
 
+(*================================================*)
+(*==============Data and functions================*)
+(*================================================*)
+
 Inductive day : Type :=
   | monday
   | tuesday
@@ -19,8 +23,6 @@ Definition next_weekday (d:day) : day :=
   | saturday => monday
   | sunday => monday
   end.
-
-Compute (next_weekday tuesday).
 
 Inductive bool : Type :=
   | true
@@ -43,8 +45,6 @@ Definition orb (b1:bool) (b2:bool) : bool :=
   | true => true
   | false => b2
   end.
-
-Compute (negb true).
 
 Example test_orb1: (orb true false) = true.
 Proof. simpl. reflexivity. Qed.
@@ -186,5 +186,65 @@ Fixpoint leb (n m : nat) : bool :=
       end
   end.
 
+
 Notation "x =? y" := (eqb x y) (at level 70) : nat_scope.
 Notation "x <=? y" := (leb x y) (at level 70) : nat_scope.
+
+
+(*=================================================================*)
+(*====================Proof by simplification======================*)
+(*=================================================================*)
+
+Theorem plus_O_n : forall n : nat, 0 + n = n.
+Proof. intros n. simpl. reflexivity. Qed.
+
+Theorem plus_1_n : forall n : nat, 1 + n = S n.
+Proof. intros n. reflexivity. Qed.
+
+Theorem mult_0_l : forall n : nat, 0 * n = 0.
+Proof. intros n. reflexivity. Qed.
+
+
+(*=================================================================*)
+(*======================Proof by rewriting=========================*)
+(*=================================================================*)
+
+Theorem plus_id_example : forall n m : nat, n = m -> n + n = m + m.
+Proof.
+intros n m.
+intros H.
+rewrite <- H.
+reflexivity. Qed.
+
+
+(*=================================================================*)
+(*====================Proof by Case Analysis=======================*)
+(*=================================================================*)
+
+Theorem plus_1_neq_0 : forall n : nat, (n + 1) =? 0 = false.
+Proof.
+intros n.
+destruct n as [| n'] eqn:E.
+-reflexivity.
+-reflexivity. Qed.
+
+
+Theorem negb_involutive : forall b : bool,
+  negb (negb b) = b.
+Proof.
+  intros b. destruct b eqn:E.
+  - reflexivity.
+  - reflexivity. Qed.
+
+
+Theorem andb_commutative : forall b c, andb b c = andb c b.
+Proof.
+  intros b c. destruct b eqn:Eb.
+  - destruct c eqn:Ec.
+    + reflexivity.
+    + reflexivity.
+  - destruct c eqn:Ec.
+    + reflexivity.
+    + reflexivity.
+Qed.
+
