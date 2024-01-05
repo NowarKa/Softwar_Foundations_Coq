@@ -1,4 +1,4 @@
-Require Export Software_Foundations_chapter1_course.
+Require Export Course_chapter1_Functional_Programming_in_Coq.
 
 (*==================================================*)
 (*========Exercise: 1 star, standard (nandb)========*)

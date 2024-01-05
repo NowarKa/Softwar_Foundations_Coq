@@ -1,0 +1,422 @@
+DIGEST f77c7b992f36a730cf1db6323eeb6fc8
+FCourse_chapter1_Functional_Programming_in_Coq
+R24:29 Coq.Strings.String <> <> lib
+ind 203:205 <> day
+constr 221:226 <> monday
+constr 232:238 <> tuesday
+constr 244:252 <> wednesday
+constr 258:265 <> thursday
+constr 271:276 <> friday
+constr 282:289 <> saturday
+constr 295:300 <> sunday
+scheme 203:205 <> day_rect
+scheme 203:205 <> day_ind
+scheme 203:205 <> day_rec
+scheme 203:205 <> day_sind
+def 315:326 <> next_weekday
+R331:333 Course_chapter1_Functional_Programming_in_Coq <> day ind
+binder 329:329 <> d:3
+R338:340 Course_chapter1_Functional_Programming_in_Coq <> day ind
+R353:353 Course_chapter1_Functional_Programming_in_Coq <> d:3 var
+R364:369 Course_chapter1_Functional_Programming_in_Coq <> monday constr
+R374:380 Course_chapter1_Functional_Programming_in_Coq <> tuesday constr
+R386:392 Course_chapter1_Functional_Programming_in_Coq <> tuesday constr
+R397:405 Course_chapter1_Functional_Programming_in_Coq <> wednesday constr
+R411:419 Course_chapter1_Functional_Programming_in_Coq <> wednesday constr
+R424:431 Course_chapter1_Functional_Programming_in_Coq <> thursday constr
+R437:444 Course_chapter1_Functional_Programming_in_Coq <> thursday constr
+R449:454 Course_chapter1_Functional_Programming_in_Coq <> friday constr
+R460:465 Course_chapter1_Functional_Programming_in_Coq <> friday constr
+R470:475 Course_chapter1_Functional_Programming_in_Coq <> monday constr
+R481:488 Course_chapter1_Functional_Programming_in_Coq <> saturday constr
+R493:498 Course_chapter1_Functional_Programming_in_Coq <> monday constr
+R504:509 Course_chapter1_Functional_Programming_in_Coq <> sunday constr
+R514:519 Course_chapter1_Functional_Programming_in_Coq <> monday constr
+ind 539:542 <> bool
+constr 558:561 <> true
+constr 567:571 <> false
+scheme 539:542 <> bool_rect
+scheme 539:542 <> bool_ind
+scheme 539:542 <> bool_rec
+scheme 539:542 <> bool_sind
+def 586:589 <> negb
+R594:597 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 592:592 <> b:7
+R602:605 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+R618:618 Course_chapter1_Functional_Programming_in_Coq <> b:7 var
+R629:632 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R637:641 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R647:651 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R656:659 Course_chapter1_Functional_Programming_in_Coq <> true constr
+def 680:683 <> andb
+R689:692 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 686:687 <> b1:9
+R699:702 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 696:697 <> b2:10
+R707:710 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+R723:724 Course_chapter1_Functional_Programming_in_Coq <> b1:9 var
+R735:738 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R743:744 Course_chapter1_Functional_Programming_in_Coq <> b2:10 var
+R750:754 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R759:763 Course_chapter1_Functional_Programming_in_Coq <> false constr
+def 784:786 <> orb
+R792:795 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 789:790 <> b1:12
+R802:805 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 799:800 <> b2:13
+R810:813 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+R826:827 Course_chapter1_Functional_Programming_in_Coq <> b1:12 var
+R838:841 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R846:849 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R855:859 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R864:865 Course_chapter1_Functional_Programming_in_Coq <> b2:13 var
+def 883:891 <> test_orb1
+R894:894 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R909:912 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R895:897 Course_chapter1_Functional_Programming_in_Coq <> orb def
+R899:902 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R904:908 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R913:916 Course_chapter1_Functional_Programming_in_Coq <> true constr
+def 959:967 <> test_orb2
+R970:970 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R986:989 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R971:973 Course_chapter1_Functional_Programming_in_Coq <> orb def
+R975:979 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R981:985 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R990:994 Course_chapter1_Functional_Programming_in_Coq <> false constr
+def 1037:1045 <> test_orb3
+R1048:1048 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1063:1066 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1049:1051 Course_chapter1_Functional_Programming_in_Coq <> orb def
+R1053:1057 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R1059:1062 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1067:1070 Course_chapter1_Functional_Programming_in_Coq <> true constr
+def 1113:1121 <> test_orb4
+R1124:1124 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1138:1141 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1125:1127 Course_chapter1_Functional_Programming_in_Coq <> orb def
+R1129:1132 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1134:1137 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1142:1145 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1203:1206 Course_chapter1_Functional_Programming_in_Coq <> andb def
+not 1190:1190 <> :::x_'&&'_x
+R1236:1238 Course_chapter1_Functional_Programming_in_Coq <> orb def
+not 1223:1223 <> :::x_'||'_x
+def 1255:1263 <> test_orb5
+R1288:1290 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1280:1283 Course_chapter1_Functional_Programming_in_Coq <> :::x_'||'_x not
+R1271:1274 Course_chapter1_Functional_Programming_in_Coq <> :::x_'||'_x not
+R1266:1270 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R1275:1279 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R1284:1287 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1291:1294 Course_chapter1_Functional_Programming_in_Coq <> true constr
+def 1341:1345 <> nandb
+R1351:1354 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 1348:1349 <> b1:15
+R1361:1364 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 1358:1359 <> b2:16
+R1369:1372 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+R1385:1386 Course_chapter1_Functional_Programming_in_Coq <> b1:15 var
+R1397:1400 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1405:1408 Course_chapter1_Functional_Programming_in_Coq <> negb def
+R1410:1411 Course_chapter1_Functional_Programming_in_Coq <> b2:16 var
+R1418:1422 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R1427:1430 Course_chapter1_Functional_Programming_in_Coq <> true constr
+def 1448:1457 <> test_nanb1
+R1460:1460 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1477:1480 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1461:1465 Course_chapter1_Functional_Programming_in_Coq <> nandb def
+R1467:1470 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1472:1476 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R1481:1484 Course_chapter1_Functional_Programming_in_Coq <> true constr
+def 1527:1536 <> test_nanb2
+R1539:1539 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1557:1560 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1540:1544 Course_chapter1_Functional_Programming_in_Coq <> nandb def
+R1546:1550 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R1552:1556 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R1561:1564 Course_chapter1_Functional_Programming_in_Coq <> true constr
+def 1607:1616 <> test_nanb3
+R1619:1619 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1636:1639 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1620:1624 Course_chapter1_Functional_Programming_in_Coq <> nandb def
+R1626:1630 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R1632:1635 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1640:1643 Course_chapter1_Functional_Programming_in_Coq <> true constr
+def 1686:1695 <> test_nanb4
+R1698:1698 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1714:1717 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1699:1703 Course_chapter1_Functional_Programming_in_Coq <> nandb def
+R1705:1708 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1710:1713 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1718:1722 Course_chapter1_Functional_Programming_in_Coq <> false constr
+def 1769:1773 <> andb3
+R1779:1782 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 1776:1777 <> b1:18
+R1789:1792 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 1786:1787 <> b2:19
+R1799:1802 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 1796:1797 <> b3:20
+R1807:1810 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+R1823:1824 Course_chapter1_Functional_Programming_in_Coq <> b1:18 var
+R1835:1838 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1843:1846 Course_chapter1_Functional_Programming_in_Coq <> andb def
+R1848:1849 Course_chapter1_Functional_Programming_in_Coq <> b2:19 var
+R1851:1852 Course_chapter1_Functional_Programming_in_Coq <> b3:20 var
+R1858:1862 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R1867:1871 Course_chapter1_Functional_Programming_in_Coq <> false constr
+def 1889:1899 <> test_andb31
+R1902:1902 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1923:1926 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1903:1907 Course_chapter1_Functional_Programming_in_Coq <> andb3 def
+R1909:1912 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1914:1917 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1919:1922 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1927:1930 Course_chapter1_Functional_Programming_in_Coq <> true constr
+def 1973:1983 <> test_andb32
+R1986:1986 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2008:2011 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1987:1991 Course_chapter1_Functional_Programming_in_Coq <> andb3 def
+R1993:1997 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R1999:2002 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R2004:2007 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R2012:2016 Course_chapter1_Functional_Programming_in_Coq <> false constr
+ind 2062:2064 <> rgb
+constr 2080:2082 <> red
+constr 2088:2092 <> green
+constr 2098:2101 <> blue
+scheme 2062:2064 <> rgb_rect
+scheme 2062:2064 <> rgb_ind
+scheme 2062:2064 <> rgb_rec
+scheme 2062:2064 <> rgb_sind
+ind 2115:2119 <> color
+constr 2135:2139 <> white
+constr 2145:2149 <> black
+constr 2155:2161 <> primary
+R2168:2170 Course_chapter1_Functional_Programming_in_Coq <> rgb ind
+binder 2164:2164 <> p:26
+scheme 2115:2119 <> color_rect
+scheme 2115:2119 <> color_ind
+scheme 2115:2119 <> color_rec
+scheme 2115:2119 <> color_sind
+mod 2182:2196 <> TuplePlayground
+ind 2210:2212 TuplePlayground bit
+constr 2228:2229 TuplePlayground B0
+constr 2235:2236 TuplePlayground B1
+scheme 2210:2212 TuplePlayground bit_rect
+scheme 2210:2212 TuplePlayground bit_ind
+scheme 2210:2212 TuplePlayground bit_rec
+scheme 2210:2212 TuplePlayground bit_sind
+ind 2250:2255 TuplePlayground nybble
+constr 2271:2274 TuplePlayground bits
+R2291:2293 Course_chapter1_Functional_Programming_in_Coq TuplePlayground bit ind
+binder 2277:2278 <> b0:31
+binder 2280:2281 <> b1:32
+binder 2283:2284 <> b2:33
+binder 2286:2287 <> b3:34
+scheme 2250:2255 TuplePlayground nybble_rect
+scheme 2250:2255 TuplePlayground nybble_ind
+scheme 2250:2255 TuplePlayground nybble_rec
+scheme 2250:2255 TuplePlayground nybble_sind
+R2302:2316 Course_chapter1_Functional_Programming_in_Coq TuplePlayground <> mod
+mod 2329:2341 <> Natplayground
+ind 2355:2357 Natplayground nat
+constr 2373:2373 Natplayground O
+constr 2379:2379 Natplayground S
+R2386:2388 Course_chapter1_Functional_Programming_in_Coq <> nat:35 ind
+binder 2382:2382 <> n:37
+scheme 2355:2357 Natplayground nat_rect
+scheme 2355:2357 Natplayground nat_ind
+scheme 2355:2357 Natplayground nat_rec
+scheme 2355:2357 Natplayground nat_sind
+def 2404:2407 Natplayground pred
+R2414:2416 Course_chapter1_Functional_Programming_in_Coq Natplayground nat ind
+binder 2410:2410 <> n:38
+R2421:2423 Course_chapter1_Functional_Programming_in_Coq Natplayground nat ind
+R2436:2436 Course_chapter1_Functional_Programming_in_Coq <> n:38 var
+R2447:2447 Course_chapter1_Functional_Programming_in_Coq Natplayground O constr
+R2452:2452 Course_chapter1_Functional_Programming_in_Coq Natplayground O constr
+R2458:2458 Course_chapter1_Functional_Programming_in_Coq Natplayground S constr
+R2481:2493 Course_chapter1_Functional_Programming_in_Coq Natplayground <> mod
+def 2506:2509 <> even
+R2516:2518 Coq.Init.Datatypes <> nat ind
+binder 2512:2512 <> n:40
+R2523:2526 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+R2539:2539 Course_chapter1_Functional_Programming_in_Coq <> n:40 var
+R2550:2550 Coq.Init.Datatypes <> O constr
+R2556:2559 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R2565:2565 Coq.Init.Datatypes <> S constr
+R2567:2567 Coq.Init.Datatypes <> O constr
+R2572:2576 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R2582:2582 Coq.Init.Datatypes <> S constr
+R2585:2585 Coq.Init.Datatypes <> S constr
+R2594:2597 Course_chapter1_Functional_Programming_in_Coq <> even:41 def
+def 2621:2623 <> odd
+R2630:2632 Coq.Init.Datatypes <> nat ind
+binder 2626:2626 <> n:43
+R2637:2640 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+R2647:2650 Course_chapter1_Functional_Programming_in_Coq <> negb def
+R2653:2656 Course_chapter1_Functional_Programming_in_Coq <> even def
+R2658:2658 Course_chapter1_Functional_Programming_in_Coq <> n:43 var
+mod 2670:2680 <> Playground2
+def 2693:2696 Playground2 plus
+R2703:2705 Coq.Init.Datatypes <> nat ind
+binder 2699:2699 <> n:44
+R2713:2715 Coq.Init.Datatypes <> nat ind
+binder 2709:2709 <> m:45
+R2720:2722 Coq.Init.Datatypes <> nat ind
+R2735:2735 Course_chapter1_Functional_Programming_in_Coq <> n:44 var
+R2746:2746 Coq.Init.Datatypes <> O constr
+R2751:2751 Course_chapter1_Functional_Programming_in_Coq <> m:45 var
+R2757:2757 Coq.Init.Datatypes <> S constr
+R2765:2768 Course_chapter1_Functional_Programming_in_Coq <> plus:46 def
+R2774:2774 Coq.Init.Datatypes <> S constr
+R2776:2776 Course_chapter1_Functional_Programming_in_Coq <> m:45 var
+def 2796:2800 Playground2 minus
+R2807:2809 Coq.Init.Datatypes <> nat ind
+binder 2803:2803 <> n:48
+binder 2805:2805 <> m:49
+R2814:2816 Coq.Init.Datatypes <> nat ind
+R2832:2832 Course_chapter1_Functional_Programming_in_Coq <> m:49 var
+R2829:2829 Course_chapter1_Functional_Programming_in_Coq <> n:48 var
+R2843:2843 Coq.Init.Datatypes <> O constr
+R2851:2851 Coq.Init.Datatypes <> O constr
+R2857:2857 Coq.Init.Datatypes <> S constr
+R2863:2863 Coq.Init.Datatypes <> O constr
+R2868:2868 Course_chapter1_Functional_Programming_in_Coq <> n:48 var
+R2874:2874 Coq.Init.Datatypes <> S constr
+R2880:2880 Coq.Init.Datatypes <> S constr
+R2888:2892 Course_chapter1_Functional_Programming_in_Coq <> minus:50 def
+def 2917:2920 Playground2 mult
+R2929:2931 Coq.Init.Datatypes <> nat ind
+binder 2923:2923 <> n:53
+binder 2925:2925 <> m:54
+R2936:2938 Coq.Init.Datatypes <> nat ind
+R2951:2951 Course_chapter1_Functional_Programming_in_Coq <> n:53 var
+R2962:2962 Coq.Init.Datatypes <> O constr
+R2967:2967 Coq.Init.Datatypes <> O constr
+R2973:2973 Coq.Init.Datatypes <> S constr
+R2975:2975 Coq.Init.Datatypes <> O constr
+R2980:2980 Course_chapter1_Functional_Programming_in_Coq <> m:54 var
+R2986:2986 Coq.Init.Datatypes <> S constr
+R2994:2997 Course_chapter1_Functional_Programming_in_Coq Playground2 plus def
+R2999:2999 Course_chapter1_Functional_Programming_in_Coq <> m:54 var
+R3002:3005 Course_chapter1_Functional_Programming_in_Coq <> mult:55 def
+R3010:3010 Course_chapter1_Functional_Programming_in_Coq <> m:54 var
+R3025:3035 Course_chapter1_Functional_Programming_in_Coq Playground2 <> mod
+def 3048:3050 <> exp
+R3059:3061 Coq.Init.Datatypes <> nat ind
+binder 3053:3053 <> n:57
+binder 3055:3055 <> m:58
+R3066:3068 Coq.Init.Datatypes <> nat ind
+R3081:3081 Course_chapter1_Functional_Programming_in_Coq <> n:57 var
+R3092:3092 Coq.Init.Datatypes <> O constr
+R3103:3103 Coq.Init.Datatypes <> S constr
+R3111:3114 Coq.Init.Peano <> mult abbrev
+R3116:3116 Course_chapter1_Functional_Programming_in_Coq <> m:58 var
+R3119:3121 Course_chapter1_Functional_Programming_in_Coq <> exp:59 def
+R3126:3126 Course_chapter1_Functional_Programming_in_Coq <> m:58 var
+R3158:3161 Coq.Init.Peano <> plus abbrev
+not 3146:3146 <> ::nat_scope:x_'+'_x
+R3236:3240 Coq.Init.Peano <> minus abbrev
+not 3224:3224 <> ::nat_scope:x_'-'_x
+R3315:3318 Coq.Init.Peano <> mult abbrev
+not 3303:3303 <> ::nat_scope:x_'*'_x
+def 3382:3384 <> eqb
+R3393:3395 Coq.Init.Datatypes <> nat ind
+binder 3387:3387 <> n:61
+binder 3389:3389 <> m:62
+R3399:3402 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+R3418:3418 Course_chapter1_Functional_Programming_in_Coq <> m:62 var
+R3415:3415 Course_chapter1_Functional_Programming_in_Coq <> n:61 var
+R3429:3429 Coq.Init.Datatypes <> O constr
+R3432:3432 Coq.Init.Datatypes <> O constr
+R3437:3440 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R3449:3449 Coq.Init.Datatypes <> O constr
+R3454:3458 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R3464:3464 Coq.Init.Datatypes <> O constr
+R3472:3476 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R3482:3482 Coq.Init.Datatypes <> S constr
+R3488:3488 Coq.Init.Datatypes <> S constr
+R3496:3498 Course_chapter1_Functional_Programming_in_Coq <> eqb:63 def
+def 3523:3525 <> leb
+R3534:3536 Coq.Init.Datatypes <> nat ind
+binder 3528:3528 <> n:66
+binder 3530:3530 <> m:67
+R3541:3544 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+R3557:3557 Course_chapter1_Functional_Programming_in_Coq <> n:66 var
+R3568:3568 Coq.Init.Datatypes <> O constr
+R3573:3576 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R3582:3582 Coq.Init.Datatypes <> S constr
+R3602:3602 Course_chapter1_Functional_Programming_in_Coq <> m:67 var
+R3617:3617 Coq.Init.Datatypes <> O constr
+R3622:3626 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R3636:3636 Coq.Init.Datatypes <> S constr
+R3644:3646 Course_chapter1_Functional_Programming_in_Coq <> leb:68 def
+R3695:3697 Course_chapter1_Functional_Programming_in_Coq <> eqb def
+not 3682:3682 <> ::nat_scope:x_'=?'_x
+R3754:3756 Course_chapter1_Functional_Programming_in_Coq <> leb def
+not 3740:3740 <> ::nat_scope:x_'<=?'_x
+prf 4011:4018 <> plus_O_n
+R4033:4035 Coq.Init.Datatypes <> nat ind
+binder 4029:4029 <> n:71
+R4043:4045 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4039:4041 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'+'_x not
+R4042:4042 Course_chapter1_Functional_Programming_in_Coq <> n:71 var
+R4046:4046 Course_chapter1_Functional_Programming_in_Coq <> n:71 var
+prf 4100:4107 <> plus_1_n
+R4122:4124 Coq.Init.Datatypes <> nat ind
+binder 4118:4118 <> n:72
+R4132:4134 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4128:4130 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'+'_x not
+R4131:4131 Course_chapter1_Functional_Programming_in_Coq <> n:72 var
+R4135:4135 Coq.Init.Datatypes <> S constr
+R4137:4137 Course_chapter1_Functional_Programming_in_Coq <> n:72 var
+prf 4184:4191 <> mult_0_l
+R4206:4208 Coq.Init.Datatypes <> nat ind
+binder 4202:4202 <> n:73
+R4216:4218 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4212:4214 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'*'_x not
+R4215:4215 Course_chapter1_Functional_Programming_in_Coq <> n:73 var
+prf 4478:4492 <> plus_id_example
+R4509:4511 Coq.Init.Datatypes <> nat ind
+binder 4503:4503 <> n:74
+binder 4505:4505 <> m:75
+R4519:4522 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4515:4517 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4514:4514 Course_chapter1_Functional_Programming_in_Coq <> n:74 var
+R4518:4518 Course_chapter1_Functional_Programming_in_Coq <> m:75 var
+R4528:4530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4524:4526 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'+'_x not
+R4523:4523 Course_chapter1_Functional_Programming_in_Coq <> n:74 var
+R4527:4527 Course_chapter1_Functional_Programming_in_Coq <> n:74 var
+R4532:4534 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'+'_x not
+R4531:4531 Course_chapter1_Functional_Programming_in_Coq <> m:75 var
+R4535:4535 Course_chapter1_Functional_Programming_in_Coq <> m:75 var
+prf 4820:4831 <> plus_1_neq_0
+R4846:4848 Coq.Init.Datatypes <> nat ind
+binder 4842:4842 <> n:76
+R4863:4865 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4851:4851 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'=?'_x not
+R4857:4861 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'=?'_x not
+R4853:4855 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'+'_x not
+R4852:4852 Course_chapter1_Functional_Programming_in_Coq <> n:76 var
+R4866:4870 Course_chapter1_Functional_Programming_in_Coq <> false constr
+prf 4961:4975 <> negb_involutive
+R4990:4993 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 4986:4986 <> b:77
+R5011:5013 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4998:5001 Course_chapter1_Functional_Programming_in_Coq <> negb def
+R5004:5007 Course_chapter1_Functional_Programming_in_Coq <> negb def
+R5009:5009 Course_chapter1_Functional_Programming_in_Coq <> b:77 var
+R5014:5014 Course_chapter1_Functional_Programming_in_Coq <> b:77 var
+prf 5103:5118 <> andb_commutative
+binder 5129:5129 <> b:78
+binder 5131:5131 <> c:79
+R5142:5144 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5134:5137 Course_chapter1_Functional_Programming_in_Coq <> andb def
+R5139:5139 Course_chapter1_Functional_Programming_in_Coq <> b:78 var
+R5141:5141 Course_chapter1_Functional_Programming_in_Coq <> c:79 var
+R5145:5148 Course_chapter1_Functional_Programming_in_Coq <> andb def
+R5150:5150 Course_chapter1_Functional_Programming_in_Coq <> c:79 var
+R5152:5152 Course_chapter1_Functional_Programming_in_Coq <> b:78 var

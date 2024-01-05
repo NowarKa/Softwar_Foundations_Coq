@@ -1,0 +1,926 @@
+DIGEST 602332c784429f341aebdea5fe86080a
+FExercises_chapter1_Functional_Programming_in_Coq
+R15:59 Course_chapter1_Functional_Programming_in_Coq <> <> lib
+def 240:244 <> nandb
+R250:253 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 247:248 <> b1:1
+R260:263 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 257:258 <> b2:2
+R268:271 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+R284:285 Exercises_chapter1_Functional_Programming_in_Coq <> b1:1 var
+R296:299 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R304:307 Course_chapter1_Functional_Programming_in_Coq <> negb def
+R309:310 Exercises_chapter1_Functional_Programming_in_Coq <> b2:2 var
+R317:321 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R326:329 Course_chapter1_Functional_Programming_in_Coq <> true constr
+def 347:356 <> test_nanb1
+R359:359 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R376:379 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R360:364 Exercises_chapter1_Functional_Programming_in_Coq <> nandb def
+R366:369 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R371:375 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R380:383 Course_chapter1_Functional_Programming_in_Coq <> true constr
+def 426:435 <> test_nanb2
+R438:438 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R456:459 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R439:443 Exercises_chapter1_Functional_Programming_in_Coq <> nandb def
+R445:449 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R451:455 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R460:463 Course_chapter1_Functional_Programming_in_Coq <> true constr
+def 506:515 <> test_nanb3
+R518:518 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R535:538 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R519:523 Exercises_chapter1_Functional_Programming_in_Coq <> nandb def
+R525:529 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R531:534 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R539:542 Course_chapter1_Functional_Programming_in_Coq <> true constr
+def 585:594 <> test_nanb4
+R597:597 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R613:616 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R598:602 Exercises_chapter1_Functional_Programming_in_Coq <> nandb def
+R604:607 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R609:612 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R617:621 Course_chapter1_Functional_Programming_in_Coq <> false constr
+def 839:843 <> andb3
+R849:852 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 846:847 <> b1:4
+R859:862 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 856:857 <> b2:5
+R869:872 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 866:867 <> b3:6
+R877:880 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+R893:894 Exercises_chapter1_Functional_Programming_in_Coq <> b1:4 var
+R905:908 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R913:916 Course_chapter1_Functional_Programming_in_Coq <> andb def
+R918:919 Exercises_chapter1_Functional_Programming_in_Coq <> b2:5 var
+R921:922 Exercises_chapter1_Functional_Programming_in_Coq <> b3:6 var
+R928:932 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R937:941 Course_chapter1_Functional_Programming_in_Coq <> false constr
+def 959:969 <> test_andb31
+R972:972 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R993:996 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R973:977 Exercises_chapter1_Functional_Programming_in_Coq <> andb3 def
+R979:982 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R984:987 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R989:992 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R997:1000 Course_chapter1_Functional_Programming_in_Coq <> true constr
+def 1043:1053 <> test_andb32
+R1056:1056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1078:1081 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1057:1061 Exercises_chapter1_Functional_Programming_in_Coq <> andb3 def
+R1063:1067 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R1069:1072 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1074:1077 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1082:1086 Course_chapter1_Functional_Programming_in_Coq <> false constr
+def 1129:1139 <> test_andb33
+R1142:1142 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1164:1167 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1143:1147 Exercises_chapter1_Functional_Programming_in_Coq <> andb3 def
+R1149:1152 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1154:1158 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R1160:1163 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1168:1172 Course_chapter1_Functional_Programming_in_Coq <> false constr
+def 1215:1225 <> test_andb34
+R1228:1228 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1250:1253 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1229:1233 Exercises_chapter1_Functional_Programming_in_Coq <> andb3 def
+R1235:1238 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1240:1243 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1245:1249 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R1254:1258 Course_chapter1_Functional_Programming_in_Coq <> false constr
+def 1474:1482 <> factorial
+R1489:1491 Coq.Init.Datatypes <> nat ind
+binder 1485:1485 <> n:8
+R1496:1498 Coq.Init.Datatypes <> nat ind
+R1511:1511 Exercises_chapter1_Functional_Programming_in_Coq <> n:8 var
+R1522:1522 Coq.Init.Datatypes <> O constr
+R1533:1533 Coq.Init.Datatypes <> S constr
+R1541:1544 Coq.Init.Peano <> mult abbrev
+R1546:1546 Exercises_chapter1_Functional_Programming_in_Coq <> n:8 var
+R1549:1557 Exercises_chapter1_Functional_Programming_in_Coq <> factorial:9 def
+def 1579:1593 <> test_factorial1
+R1596:1596 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1608:1611 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1597:1605 Exercises_chapter1_Functional_Programming_in_Coq <> factorial def
+def 1655:1669 <> test_factorial2
+R1672:1672 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1684:1688 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1699:1699 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1673:1681 Exercises_chapter1_Functional_Programming_in_Coq <> factorial def
+R1689:1692 Coq.Init.Peano <> mult abbrev
+def 1915:1917 <> leb
+R1926:1928 Coq.Init.Datatypes <> nat ind
+binder 1920:1920 <> n:11
+binder 1922:1922 <> m:12
+R1933:1936 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+R1949:1949 Exercises_chapter1_Functional_Programming_in_Coq <> n:11 var
+R1960:1960 Coq.Init.Datatypes <> O constr
+R1965:1968 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R1974:1974 Coq.Init.Datatypes <> S constr
+R1994:1994 Exercises_chapter1_Functional_Programming_in_Coq <> m:12 var
+R2009:2009 Coq.Init.Datatypes <> O constr
+R2014:2018 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R2028:2028 Coq.Init.Datatypes <> S constr
+R2036:2038 Exercises_chapter1_Functional_Programming_in_Coq <> leb:13 def
+def 2075:2077 <> ltb
+R2086:2088 Coq.Init.Datatypes <> nat ind
+binder 2080:2080 <> n:16
+binder 2082:2082 <> m:17
+R2093:2096 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+R2104:2107 Course_chapter1_Functional_Programming_in_Coq <> negb def
+R2110:2112 Exercises_chapter1_Functional_Programming_in_Coq <> leb def
+R2114:2114 Exercises_chapter1_Functional_Programming_in_Coq <> m:17 var
+R2116:2116 Exercises_chapter1_Functional_Programming_in_Coq <> n:16 var
+R2143:2145 Exercises_chapter1_Functional_Programming_in_Coq <> ltb def
+not 2130:2130 <> ::nat_scope:x_'<?'_x
+def 2188:2196 <> test_ltb1
+R2199:2199 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2207:2210 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2200:2202 Exercises_chapter1_Functional_Programming_in_Coq <> ltb def
+R2211:2215 Course_chapter1_Functional_Programming_in_Coq <> false constr
+def 2258:2266 <> test_ltb2
+R2269:2269 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2277:2280 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2270:2272 Exercises_chapter1_Functional_Programming_in_Coq <> ltb def
+R2281:2284 Course_chapter1_Functional_Programming_in_Coq <> true constr
+def 2327:2335 <> test_ltb3
+R2338:2338 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2346:2349 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2339:2341 Exercises_chapter1_Functional_Programming_in_Coq <> ltb def
+R2350:2354 Course_chapter1_Functional_Programming_in_Coq <> false constr
+prf 2581:2596 <> plus_id_exercise
+R2615:2617 Coq.Init.Datatypes <> nat ind
+binder 2607:2607 <> n:18
+binder 2609:2609 <> m:19
+binder 2611:2611 <> p:20
+R2625:2628 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2621:2623 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2620:2620 Exercises_chapter1_Functional_Programming_in_Coq <> n:18 var
+R2624:2624 Exercises_chapter1_Functional_Programming_in_Coq <> m:19 var
+R2634:2637 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2630:2632 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2629:2629 Exercises_chapter1_Functional_Programming_in_Coq <> m:19 var
+R2633:2633 Exercises_chapter1_Functional_Programming_in_Coq <> p:20 var
+R2643:2645 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2639:2641 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'+'_x not
+R2638:2638 Exercises_chapter1_Functional_Programming_in_Coq <> n:18 var
+R2642:2642 Exercises_chapter1_Functional_Programming_in_Coq <> m:19 var
+R2647:2649 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'+'_x not
+R2646:2646 Exercises_chapter1_Functional_Programming_in_Coq <> n:18 var
+R2650:2650 Exercises_chapter1_Functional_Programming_in_Coq <> p:20 var
+prf 2937:2944 <> plus_1_n
+R2959:2961 Coq.Init.Datatypes <> nat ind
+binder 2955:2955 <> n:21
+R2969:2971 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2965:2967 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'+'_x not
+R2968:2968 Exercises_chapter1_Functional_Programming_in_Coq <> n:21 var
+R2972:2972 Coq.Init.Datatypes <> S constr
+R2974:2974 Exercises_chapter1_Functional_Programming_in_Coq <> n:21 var
+prf 3021:3028 <> mult_n_O
+R3043:3045 Coq.Init.Datatypes <> nat ind
+binder 3039:3039 <> n:22
+R3049:3051 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3053:3055 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'*'_x not
+R3056:3056 Exercises_chapter1_Functional_Programming_in_Coq <> n:22 var
+prf 3110:3122 <> commutativite
+R3139:3141 Coq.Init.Datatypes <> nat ind
+binder 3133:3133 <> n:23
+binder 3135:3135 <> m:24
+R3149:3151 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3145:3147 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'*'_x not
+R3144:3144 Exercises_chapter1_Functional_Programming_in_Coq <> n:23 var
+R3148:3148 Exercises_chapter1_Functional_Programming_in_Coq <> m:24 var
+R3153:3155 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'*'_x not
+R3152:3152 Exercises_chapter1_Functional_Programming_in_Coq <> m:24 var
+R3156:3156 Exercises_chapter1_Functional_Programming_in_Coq <> n:23 var
+prf 3178:3186 <> mult_n_Sm
+R3203:3205 Coq.Init.Datatypes <> nat ind
+binder 3197:3197 <> n:25
+binder 3199:3199 <> m:26
+R3217:3219 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3213:3215 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'+'_x not
+R3209:3211 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'*'_x not
+R3208:3208 Exercises_chapter1_Functional_Programming_in_Coq <> n:25 var
+R3212:3212 Exercises_chapter1_Functional_Programming_in_Coq <> m:26 var
+R3216:3216 Exercises_chapter1_Functional_Programming_in_Coq <> n:25 var
+R3221:3223 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'*'_x not
+R3220:3220 Exercises_chapter1_Functional_Programming_in_Coq <> n:25 var
+R3224:3224 Coq.Init.Datatypes <> S constr
+R3226:3226 Exercises_chapter1_Functional_Programming_in_Coq <> m:26 var
+prf 3248:3255 <> mult_n_1
+R3270:3272 Coq.Init.Datatypes <> nat ind
+binder 3266:3266 <> p:27
+R3280:3282 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3276:3278 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'*'_x not
+R3275:3275 Exercises_chapter1_Functional_Programming_in_Coq <> p:27 var
+R3283:3283 Exercises_chapter1_Functional_Programming_in_Coq <> p:27 var
+R3316:3324 Exercises_chapter1_Functional_Programming_in_Coq <> mult_n_Sm prfax
+R3316:3324 Exercises_chapter1_Functional_Programming_in_Coq <> mult_n_Sm prfax
+R3316:3324 Exercises_chapter1_Functional_Programming_in_Coq <> mult_n_Sm prfax
+R3339:3351 Exercises_chapter1_Functional_Programming_in_Coq <> commutativite prfax
+R3339:3351 Exercises_chapter1_Functional_Programming_in_Coq <> commutativite prfax
+R3339:3351 Exercises_chapter1_Functional_Programming_in_Coq <> commutativite prfax
+R3366:3373 Exercises_chapter1_Functional_Programming_in_Coq <> mult_n_O thm
+R3366:3373 Exercises_chapter1_Functional_Programming_in_Coq <> mult_n_O thm
+R3366:3373 Exercises_chapter1_Functional_Programming_in_Coq <> mult_n_O thm
+R3387:3394 Course_chapter1_Functional_Programming_in_Coq <> plus_O_n thm
+R3387:3394 Course_chapter1_Functional_Programming_in_Coq <> plus_O_n thm
+R3387:3394 Course_chapter1_Functional_Programming_in_Coq <> plus_O_n thm
+prf 3613:3628 <> andb_commutative
+binder 3639:3639 <> b:28
+binder 3641:3641 <> c:29
+R3652:3654 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3644:3647 Course_chapter1_Functional_Programming_in_Coq <> andb def
+R3649:3649 Exercises_chapter1_Functional_Programming_in_Coq <> b:28 var
+R3651:3651 Exercises_chapter1_Functional_Programming_in_Coq <> c:29 var
+R3655:3658 Course_chapter1_Functional_Programming_in_Coq <> andb def
+R3660:3660 Exercises_chapter1_Functional_Programming_in_Coq <> c:29 var
+R3662:3662 Exercises_chapter1_Functional_Programming_in_Coq <> b:28 var
+prf 3842:3856 <> andb_true_elim2
+R3873:3876 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 3867:3867 <> b:30
+binder 3869:3869 <> c:31
+R3894:3897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3887:3889 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3879:3882 Course_chapter1_Functional_Programming_in_Coq <> andb def
+R3884:3884 Exercises_chapter1_Functional_Programming_in_Coq <> b:30 var
+R3886:3886 Exercises_chapter1_Functional_Programming_in_Coq <> c:31 var
+R3890:3893 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R3899:3901 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3898:3898 Exercises_chapter1_Functional_Programming_in_Coq <> c:31 var
+R3902:3905 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R3938:3953 Exercises_chapter1_Functional_Programming_in_Coq <> andb_commutative thm
+R3938:3953 Exercises_chapter1_Functional_Programming_in_Coq <> andb_commutative thm
+R3938:3953 Exercises_chapter1_Functional_Programming_in_Coq <> andb_commutative thm
+prf 4333:4348 <> zero_nbeq_plus_1
+R4363:4365 Coq.Init.Datatypes <> nat ind
+binder 4359:4359 <> n:32
+R4368:4368 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4383:4386 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4369:4371 Course_chapter1_Functional_Programming_in_Coq <> eqb def
+R4378:4380 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'+'_x not
+R4377:4377 Exercises_chapter1_Functional_Programming_in_Coq <> n:32 var
+R4387:4391 Course_chapter1_Functional_Programming_in_Coq <> false constr
+prf 4894:4918 <> identity_fn_applied_twice
+R4940:4943 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4936:4939 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+R4944:4947 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 4932:4932 <> f:33
+R4953:4953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4980:4986 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4966:4969 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 4962:4962 <> x:34
+R4976:4978 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4973:4973 Exercises_chapter1_Functional_Programming_in_Coq <> f:33 var
+R4975:4975 Exercises_chapter1_Functional_Programming_in_Coq <> x:34 var
+R4979:4979 Exercises_chapter1_Functional_Programming_in_Coq <> x:34 var
+R4999:5002 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 4995:4995 <> b:35
+R5013:5015 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5006:5006 Exercises_chapter1_Functional_Programming_in_Coq <> f:33 var
+R5009:5009 Exercises_chapter1_Functional_Programming_in_Coq <> f:33 var
+R5011:5011 Exercises_chapter1_Functional_Programming_in_Coq <> b:35 var
+R5016:5016 Exercises_chapter1_Functional_Programming_in_Coq <> b:35 var
+prf 5303:5317 <> negb_involutive
+R5332:5335 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 5328:5328 <> b:36
+R5353:5355 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5340:5343 Course_chapter1_Functional_Programming_in_Coq <> negb def
+R5346:5349 Course_chapter1_Functional_Programming_in_Coq <> negb def
+R5351:5351 Exercises_chapter1_Functional_Programming_in_Coq <> b:36 var
+R5356:5356 Exercises_chapter1_Functional_Programming_in_Coq <> b:36 var
+prf 5444:5468 <> negation_fn_applied_twice
+R5490:5493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5486:5489 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+R5494:5497 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 5482:5482 <> f:37
+R5503:5503 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5535:5541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5516:5519 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 5512:5512 <> x:38
+R5526:5528 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5523:5523 Exercises_chapter1_Functional_Programming_in_Coq <> f:37 var
+R5525:5525 Exercises_chapter1_Functional_Programming_in_Coq <> x:38 var
+R5529:5532 Course_chapter1_Functional_Programming_in_Coq <> negb def
+R5534:5534 Exercises_chapter1_Functional_Programming_in_Coq <> x:38 var
+R5554:5557 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 5550:5550 <> b:39
+R5568:5570 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5561:5561 Exercises_chapter1_Functional_Programming_in_Coq <> f:37 var
+R5564:5564 Exercises_chapter1_Functional_Programming_in_Coq <> f:37 var
+R5566:5566 Exercises_chapter1_Functional_Programming_in_Coq <> b:39 var
+R5571:5571 Exercises_chapter1_Functional_Programming_in_Coq <> b:39 var
+R5651:5665 Exercises_chapter1_Functional_Programming_in_Coq <> negb_involutive thm
+R5651:5665 Exercises_chapter1_Functional_Programming_in_Coq <> negb_involutive thm
+R5651:5665 Exercises_chapter1_Functional_Programming_in_Coq <> negb_involutive thm
+def 5698:5739 <> manual_grade_for_negation_fn_applied_twice
+R5743:5748 Coq.Init.Datatypes <> option ind
+R5754:5754 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5751:5753 Coq.Init.Datatypes <> nat ind
+R5755:5760 Coq.Strings.String <> string ind
+R5766:5769 Coq.Init.Datatypes <> None constr
+prf 5971:5985 <> orb_commutative
+R6002:6005 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 5996:5996 <> b:40
+binder 5998:5998 <> c:41
+R6014:6016 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6009:6012 Course_chapter1_Functional_Programming_in_Coq <> :::x_'||'_x not
+R6008:6008 Exercises_chapter1_Functional_Programming_in_Coq <> b:40 var
+R6013:6013 Exercises_chapter1_Functional_Programming_in_Coq <> c:41 var
+R6018:6021 Course_chapter1_Functional_Programming_in_Coq <> :::x_'||'_x not
+R6017:6017 Exercises_chapter1_Functional_Programming_in_Coq <> c:41 var
+R6022:6022 Exercises_chapter1_Functional_Programming_in_Coq <> b:40 var
+prf 6204:6211 <> or_false
+R6226:6229 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 6222:6222 <> b:42
+R6242:6244 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6233:6236 Course_chapter1_Functional_Programming_in_Coq <> :::x_'||'_x not
+R6232:6232 Exercises_chapter1_Functional_Programming_in_Coq <> b:42 var
+R6237:6241 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R6245:6245 Exercises_chapter1_Functional_Programming_in_Coq <> b:42 var
+prf 6321:6328 <> and_true
+R6343:6346 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 6339:6339 <> b:43
+R6358:6360 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6350:6353 Course_chapter1_Functional_Programming_in_Coq <> :::x_'&&'_x not
+R6349:6349 Exercises_chapter1_Functional_Programming_in_Coq <> b:43 var
+R6354:6357 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R6361:6361 Exercises_chapter1_Functional_Programming_in_Coq <> b:43 var
+prf 6455:6465 <> andb_eq_orb
+R6482:6485 Course_chapter1_Functional_Programming_in_Coq <> bool ind
+binder 6476:6476 <> b:44
+binder 6478:6478 <> c:45
+R6488:6488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6507:6511 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6497:6499 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6489:6492 Course_chapter1_Functional_Programming_in_Coq <> andb def
+R6494:6494 Exercises_chapter1_Functional_Programming_in_Coq <> b:44 var
+R6496:6496 Exercises_chapter1_Functional_Programming_in_Coq <> c:45 var
+R6500:6502 Course_chapter1_Functional_Programming_in_Coq <> orb def
+R6504:6504 Exercises_chapter1_Functional_Programming_in_Coq <> b:44 var
+R6506:6506 Exercises_chapter1_Functional_Programming_in_Coq <> c:45 var
+R6513:6515 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6512:6512 Exercises_chapter1_Functional_Programming_in_Coq <> b:44 var
+R6516:6516 Exercises_chapter1_Functional_Programming_in_Coq <> c:45 var
+R6578:6585 Exercises_chapter1_Functional_Programming_in_Coq <> and_true thm
+R6578:6585 Exercises_chapter1_Functional_Programming_in_Coq <> and_true thm
+R6578:6585 Exercises_chapter1_Functional_Programming_in_Coq <> and_true thm
+R6596:6611 Exercises_chapter1_Functional_Programming_in_Coq <> andb_commutative thm
+R6596:6611 Exercises_chapter1_Functional_Programming_in_Coq <> andb_commutative thm
+R6596:6611 Exercises_chapter1_Functional_Programming_in_Coq <> andb_commutative thm
+R6657:6664 Exercises_chapter1_Functional_Programming_in_Coq <> or_false thm
+R6657:6664 Exercises_chapter1_Functional_Programming_in_Coq <> or_false thm
+R6657:6664 Exercises_chapter1_Functional_Programming_in_Coq <> or_false thm
+R6678:6692 Exercises_chapter1_Functional_Programming_in_Coq <> orb_commutative thm
+R6678:6692 Exercises_chapter1_Functional_Programming_in_Coq <> orb_commutative thm
+R6678:6692 Exercises_chapter1_Functional_Programming_in_Coq <> orb_commutative thm
+mod 6989:6996 <> LateDays
+ind 7010:7015 LateDays letter
+constr 7030:7030 LateDays A
+constr 7034:7034 LateDays B
+constr 7038:7038 LateDays C
+constr 7042:7042 LateDays D
+constr 7046:7046 LateDays F
+scheme 7010:7015 LateDays letter_rect
+scheme 7010:7015 LateDays letter_ind
+scheme 7010:7015 LateDays letter_rec
+scheme 7010:7015 LateDays letter_sind
+ind 7060:7067 LateDays modifier
+constr 7081:7084 LateDays Plus
+constr 7088:7094 LateDays Natural
+constr 7098:7102 LateDays Minus
+scheme 7060:7067 LateDays modifier_rect
+scheme 7060:7067 LateDays modifier_ind
+scheme 7060:7067 LateDays modifier_rec
+scheme 7060:7067 LateDays modifier_sind
+ind 7116:7120 LateDays grade
+constr 7133:7137 LateDays Grade
+R7142:7147 Exercises_chapter1_Functional_Programming_in_Coq LateDays letter ind
+binder 7140:7140 <> l:52
+R7153:7160 Exercises_chapter1_Functional_Programming_in_Coq LateDays modifier ind
+binder 7151:7151 <> m:53
+scheme 7116:7120 LateDays grade_rect
+scheme 7116:7120 LateDays grade_ind
+scheme 7116:7120 LateDays grade_rec
+scheme 7116:7120 LateDays grade_sind
+ind 7175:7184 LateDays comparison
+constr 7200:7201 LateDays Eq
+constr 7207:7208 LateDays Lt
+constr 7214:7215 LateDays Gt
+scheme 7175:7184 LateDays comparison_rect
+scheme 7175:7184 LateDays comparison_ind
+scheme 7175:7184 LateDays comparison_rec
+scheme 7175:7184 LateDays comparison_sind
+def 7230:7246 LateDays letter_comparison
+R7257:7262 Exercises_chapter1_Functional_Programming_in_Coq LateDays letter ind
+binder 7249:7250 <> l1:56
+binder 7252:7253 <> l2:57
+R7267:7276 Exercises_chapter1_Functional_Programming_in_Coq LateDays comparison ind
+R7293:7294 Exercises_chapter1_Functional_Programming_in_Coq <> l2:57 var
+R7289:7290 Exercises_chapter1_Functional_Programming_in_Coq <> l1:56 var
+R7305:7305 Exercises_chapter1_Functional_Programming_in_Coq LateDays A constr
+R7308:7308 Exercises_chapter1_Functional_Programming_in_Coq LateDays A constr
+R7313:7314 Exercises_chapter1_Functional_Programming_in_Coq LateDays Eq constr
+R7320:7320 Exercises_chapter1_Functional_Programming_in_Coq LateDays A constr
+R7328:7329 Exercises_chapter1_Functional_Programming_in_Coq LateDays Gt constr
+R7335:7335 Exercises_chapter1_Functional_Programming_in_Coq LateDays B constr
+R7338:7338 Exercises_chapter1_Functional_Programming_in_Coq LateDays A constr
+R7343:7344 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+R7350:7350 Exercises_chapter1_Functional_Programming_in_Coq LateDays B constr
+R7353:7353 Exercises_chapter1_Functional_Programming_in_Coq LateDays B constr
+R7358:7359 Exercises_chapter1_Functional_Programming_in_Coq LateDays Eq constr
+R7365:7365 Exercises_chapter1_Functional_Programming_in_Coq LateDays B constr
+R7373:7374 Exercises_chapter1_Functional_Programming_in_Coq LateDays Gt constr
+R7380:7380 Exercises_chapter1_Functional_Programming_in_Coq LateDays C constr
+R7384:7384 Exercises_chapter1_Functional_Programming_in_Coq LateDays A constr
+R7388:7388 Exercises_chapter1_Functional_Programming_in_Coq LateDays B constr
+R7394:7395 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+R7394:7395 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+R7401:7401 Exercises_chapter1_Functional_Programming_in_Coq LateDays C constr
+R7404:7404 Exercises_chapter1_Functional_Programming_in_Coq LateDays C constr
+R7409:7410 Exercises_chapter1_Functional_Programming_in_Coq LateDays Eq constr
+R7416:7416 Exercises_chapter1_Functional_Programming_in_Coq LateDays C constr
+R7424:7425 Exercises_chapter1_Functional_Programming_in_Coq LateDays Gt constr
+R7431:7431 Exercises_chapter1_Functional_Programming_in_Coq LateDays D constr
+R7435:7435 Exercises_chapter1_Functional_Programming_in_Coq LateDays A constr
+R7439:7439 Exercises_chapter1_Functional_Programming_in_Coq LateDays B constr
+R7443:7443 Exercises_chapter1_Functional_Programming_in_Coq LateDays C constr
+R7449:7450 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+R7449:7450 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+R7449:7450 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+R7456:7456 Exercises_chapter1_Functional_Programming_in_Coq LateDays D constr
+R7459:7459 Exercises_chapter1_Functional_Programming_in_Coq LateDays D constr
+R7464:7465 Exercises_chapter1_Functional_Programming_in_Coq LateDays Eq constr
+R7471:7471 Exercises_chapter1_Functional_Programming_in_Coq LateDays D constr
+R7479:7480 Exercises_chapter1_Functional_Programming_in_Coq LateDays Gt constr
+R7486:7486 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+R7490:7490 Exercises_chapter1_Functional_Programming_in_Coq LateDays A constr
+R7494:7494 Exercises_chapter1_Functional_Programming_in_Coq LateDays B constr
+R7498:7498 Exercises_chapter1_Functional_Programming_in_Coq LateDays C constr
+R7502:7502 Exercises_chapter1_Functional_Programming_in_Coq LateDays D constr
+R7508:7509 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+R7508:7509 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+R7508:7509 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+R7508:7509 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+R7515:7515 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+R7518:7518 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+R7523:7524 Exercises_chapter1_Functional_Programming_in_Coq LateDays Eq constr
+def 7545:7563 LateDays modifier_comparison
+R7574:7581 Exercises_chapter1_Functional_Programming_in_Coq LateDays modifier ind
+binder 7566:7567 <> m1:60
+binder 7569:7570 <> m2:61
+R7586:7595 Exercises_chapter1_Functional_Programming_in_Coq LateDays comparison ind
+R7612:7613 Exercises_chapter1_Functional_Programming_in_Coq <> m2:61 var
+R7608:7609 Exercises_chapter1_Functional_Programming_in_Coq <> m1:60 var
+R7624:7627 Exercises_chapter1_Functional_Programming_in_Coq LateDays Plus constr
+R7630:7633 Exercises_chapter1_Functional_Programming_in_Coq LateDays Plus constr
+R7638:7639 Exercises_chapter1_Functional_Programming_in_Coq LateDays Eq constr
+R7645:7648 Exercises_chapter1_Functional_Programming_in_Coq LateDays Plus constr
+R7656:7657 Exercises_chapter1_Functional_Programming_in_Coq LateDays Gt constr
+R7663:7669 Exercises_chapter1_Functional_Programming_in_Coq LateDays Natural constr
+R7672:7675 Exercises_chapter1_Functional_Programming_in_Coq LateDays Plus constr
+R7680:7681 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+R7687:7693 Exercises_chapter1_Functional_Programming_in_Coq LateDays Natural constr
+R7696:7702 Exercises_chapter1_Functional_Programming_in_Coq LateDays Natural constr
+R7707:7708 Exercises_chapter1_Functional_Programming_in_Coq LateDays Eq constr
+R7714:7720 Exercises_chapter1_Functional_Programming_in_Coq LateDays Natural constr
+R7728:7729 Exercises_chapter1_Functional_Programming_in_Coq LateDays Gt constr
+R7735:7739 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+R7743:7746 Exercises_chapter1_Functional_Programming_in_Coq LateDays Plus constr
+R7750:7756 Exercises_chapter1_Functional_Programming_in_Coq LateDays Natural constr
+R7762:7763 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+R7762:7763 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+R7769:7773 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+R7776:7780 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+R7785:7786 Exercises_chapter1_Functional_Programming_in_Coq LateDays Eq constr
+def 7807:7818 LateDays lower_letter
+R7825:7830 Exercises_chapter1_Functional_Programming_in_Coq LateDays letter ind
+binder 7821:7821 <> l:64
+R7835:7840 Exercises_chapter1_Functional_Programming_in_Coq LateDays letter ind
+R7853:7853 Exercises_chapter1_Functional_Programming_in_Coq <> l:64 var
+R7864:7864 Exercises_chapter1_Functional_Programming_in_Coq LateDays A constr
+R7869:7869 Exercises_chapter1_Functional_Programming_in_Coq LateDays B constr
+R7875:7875 Exercises_chapter1_Functional_Programming_in_Coq LateDays B constr
+R7880:7880 Exercises_chapter1_Functional_Programming_in_Coq LateDays C constr
+R7886:7886 Exercises_chapter1_Functional_Programming_in_Coq LateDays C constr
+R7891:7891 Exercises_chapter1_Functional_Programming_in_Coq LateDays D constr
+R7897:7897 Exercises_chapter1_Functional_Programming_in_Coq LateDays D constr
+R7902:7902 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+R7908:7908 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+R7913:7913 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+prf 7931:7949 LateDays lower_letter_F_is_F
+R7966:7968 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7952:7963 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_letter def
+R7965:7965 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+R7969:7969 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+prf 8181:8200 LateDays letter_comparison_Eq
+R8215:8220 Exercises_chapter1_Functional_Programming_in_Coq LateDays letter ind
+binder 8211:8211 <> l:66
+R8244:8246 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8223:8239 Exercises_chapter1_Functional_Programming_in_Coq LateDays letter_comparison def
+R8241:8241 Exercises_chapter1_Functional_Programming_in_Coq <> l:66 var
+R8243:8243 Exercises_chapter1_Functional_Programming_in_Coq <> l:66 var
+R8247:8248 Exercises_chapter1_Functional_Programming_in_Coq LateDays Eq constr
+def 8536:8551 LateDays grade_comparison
+R8562:8566 Exercises_chapter1_Functional_Programming_in_Coq LateDays grade ind
+binder 8554:8555 <> g1:67
+binder 8557:8558 <> g2:68
+R8571:8580 Exercises_chapter1_Functional_Programming_in_Coq LateDays comparison ind
+R8593:8593 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8596:8597 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8600:8600 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8594:8595 Exercises_chapter1_Functional_Programming_in_Coq <> g1:67 var
+R8598:8599 Exercises_chapter1_Functional_Programming_in_Coq <> g2:68 var
+R8611:8611 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8623:8624 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8636:8636 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8612:8616 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R8625:8629 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R8652:8668 Exercises_chapter1_Functional_Programming_in_Coq LateDays letter_comparison def
+R8687:8688 Exercises_chapter1_Functional_Programming_in_Coq LateDays Eq constr
+R8693:8711 Exercises_chapter1_Functional_Programming_in_Coq LateDays modifier_comparison def
+R8730:8746 Exercises_chapter1_Functional_Programming_in_Coq LateDays letter_comparison def
+def 8779:8800 LateDays test_grade_comparison1
+R8804:8804 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8852:8855 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8805:8820 Exercises_chapter1_Functional_Programming_in_Coq LateDays grade_comparison def
+R8823:8827 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R8829:8829 Exercises_chapter1_Functional_Programming_in_Coq LateDays A constr
+R8831:8835 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+R8839:8843 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R8845:8845 Exercises_chapter1_Functional_Programming_in_Coq LateDays B constr
+R8847:8850 Exercises_chapter1_Functional_Programming_in_Coq LateDays Plus constr
+R8856:8857 Exercises_chapter1_Functional_Programming_in_Coq LateDays Gt constr
+def 8901:8922 LateDays test_grade_comparison2
+R8926:8926 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8974:8977 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8927:8942 Exercises_chapter1_Functional_Programming_in_Coq LateDays grade_comparison def
+R8945:8949 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R8951:8951 Exercises_chapter1_Functional_Programming_in_Coq LateDays A constr
+R8953:8957 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+R8961:8965 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R8967:8967 Exercises_chapter1_Functional_Programming_in_Coq LateDays A constr
+R8969:8972 Exercises_chapter1_Functional_Programming_in_Coq LateDays Plus constr
+R8978:8979 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+def 9023:9044 LateDays test_grade_comparison3
+R9048:9048 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9095:9098 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9049:9064 Exercises_chapter1_Functional_Programming_in_Coq LateDays grade_comparison def
+R9067:9071 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R9073:9073 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+R9075:9078 Exercises_chapter1_Functional_Programming_in_Coq LateDays Plus constr
+R9082:9086 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R9088:9088 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+R9090:9093 Exercises_chapter1_Functional_Programming_in_Coq LateDays Plus constr
+R9099:9100 Exercises_chapter1_Functional_Programming_in_Coq LateDays Eq constr
+def 9144:9165 LateDays test_grade_comparison4
+R9168:9168 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9216:9219 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9169:9184 Exercises_chapter1_Functional_Programming_in_Coq LateDays grade_comparison def
+R9187:9191 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R9193:9193 Exercises_chapter1_Functional_Programming_in_Coq LateDays B constr
+R9195:9199 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+R9203:9207 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R9209:9209 Exercises_chapter1_Functional_Programming_in_Coq LateDays C constr
+R9211:9214 Exercises_chapter1_Functional_Programming_in_Coq LateDays Plus constr
+R9220:9221 Exercises_chapter1_Functional_Programming_in_Coq LateDays Gt constr
+prf 9442:9460 LateDays lower_letter_lowers
+R9477:9482 Exercises_chapter1_Functional_Programming_in_Coq LateDays letter ind
+binder 9473:9473 <> l:69
+R9516:9523 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9511:9513 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9490:9506 Exercises_chapter1_Functional_Programming_in_Coq LateDays letter_comparison def
+R9508:9508 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+R9510:9510 Exercises_chapter1_Functional_Programming_in_Coq <> l:69 var
+R9514:9515 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+R9560:9562 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9524:9540 Exercises_chapter1_Functional_Programming_in_Coq LateDays letter_comparison def
+R9543:9554 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_letter def
+R9556:9556 Exercises_chapter1_Functional_Programming_in_Coq <> l:69 var
+R9559:9559 Exercises_chapter1_Functional_Programming_in_Coq <> l:69 var
+R9563:9564 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+def 9892:9902 LateDays lower_grade
+R9909:9913 Exercises_chapter1_Functional_Programming_in_Coq LateDays grade ind
+binder 9905:9905 <> g:70
+R9918:9922 Exercises_chapter1_Functional_Programming_in_Coq LateDays grade ind
+R9935:9935 Exercises_chapter1_Functional_Programming_in_Coq <> g:70 var
+R9946:9950 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R9982:9985 Exercises_chapter1_Functional_Programming_in_Coq LateDays Plus constr
+R9990:9994 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R9998:10004 Exercises_chapter1_Functional_Programming_in_Coq LateDays Natural constr
+R10012:10018 Exercises_chapter1_Functional_Programming_in_Coq LateDays Natural constr
+R10023:10027 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R10031:10035 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+R10043:10047 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+R10082:10082 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+R10087:10087 Exercises_chapter1_Functional_Programming_in_Coq <> g:70 var
+R10112:10116 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R10119:10130 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_letter def
+R10135:10138 Exercises_chapter1_Functional_Programming_in_Coq LateDays Plus constr
+def 10183:10200 LateDays lower_grade_A_Plus
+R10232:10235 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10251:10251 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10206:10216 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R10219:10223 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R10225:10225 Exercises_chapter1_Functional_Programming_in_Coq LateDays A constr
+R10227:10230 Exercises_chapter1_Functional_Programming_in_Coq LateDays Plus constr
+R10236:10240 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R10242:10242 Exercises_chapter1_Functional_Programming_in_Coq LateDays A constr
+R10244:10250 Exercises_chapter1_Functional_Programming_in_Coq LateDays Natural constr
+def 10295:10315 LateDays lower_grade_A_Natural
+R10350:10353 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10367:10367 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10321:10331 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R10334:10338 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R10340:10340 Exercises_chapter1_Functional_Programming_in_Coq LateDays A constr
+R10342:10348 Exercises_chapter1_Functional_Programming_in_Coq LateDays Natural constr
+R10354:10358 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R10360:10360 Exercises_chapter1_Functional_Programming_in_Coq LateDays A constr
+R10362:10366 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+def 10404:10422 LateDays lower_grade_A_Minus
+R10455:10458 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10471:10471 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10428:10438 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R10441:10445 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R10447:10447 Exercises_chapter1_Functional_Programming_in_Coq LateDays A constr
+R10449:10453 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+R10459:10463 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R10465:10465 Exercises_chapter1_Functional_Programming_in_Coq LateDays B constr
+R10467:10470 Exercises_chapter1_Functional_Programming_in_Coq LateDays Plus constr
+def 10508:10525 LateDays lower_grade_B_Plus
+R10557:10560 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10576:10576 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10531:10541 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R10544:10548 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R10550:10550 Exercises_chapter1_Functional_Programming_in_Coq LateDays B constr
+R10552:10555 Exercises_chapter1_Functional_Programming_in_Coq LateDays Plus constr
+R10561:10565 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R10567:10567 Exercises_chapter1_Functional_Programming_in_Coq LateDays B constr
+R10569:10575 Exercises_chapter1_Functional_Programming_in_Coq LateDays Natural constr
+def 10613:10633 LateDays lower_grade_F_Natural
+R10668:10671 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10685:10685 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10639:10649 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R10652:10656 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R10658:10658 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+R10660:10666 Exercises_chapter1_Functional_Programming_in_Coq LateDays Natural constr
+R10672:10676 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R10678:10678 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+R10680:10684 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+def 10722:10738 LateDays lower_grade_twice
+R10785:10788 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10804:10804 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10744:10754 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R10757:10767 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R10770:10774 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R10776:10776 Exercises_chapter1_Functional_Programming_in_Coq LateDays B constr
+R10778:10782 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+R10789:10793 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R10795:10795 Exercises_chapter1_Functional_Programming_in_Coq LateDays C constr
+R10797:10803 Exercises_chapter1_Functional_Programming_in_Coq LateDays Natural constr
+def 10841:10858 LateDays lower_grade_thrice
+R10919:10922 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10936:10936 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10864:10874 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R10877:10887 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R10890:10900 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R10903:10907 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R10909:10909 Exercises_chapter1_Functional_Programming_in_Coq LateDays B constr
+R10911:10915 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+R10923:10927 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R10929:10929 Exercises_chapter1_Functional_Programming_in_Coq LateDays C constr
+R10931:10935 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+prf 10973:10991 LateDays lower_grade_F_Minus
+R11022:11025 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11039:11039 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10995:11005 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R11008:11012 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R11014:11014 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+R11016:11020 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+R11026:11030 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R11032:11032 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+R11034:11038 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+prf 11250:11267 LateDays lower_grade_lowers
+R11283:11287 Exercises_chapter1_Functional_Programming_in_Coq LateDays grade ind
+binder 11279:11279 <> g:74
+R11330:11333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11325:11327 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11291:11306 Exercises_chapter1_Functional_Programming_in_Coq LateDays grade_comparison def
+R11309:11313 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R11315:11315 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+R11317:11321 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+R11324:11324 Exercises_chapter1_Functional_Programming_in_Coq <> g:74 var
+R11328:11329 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+R11368:11370 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11334:11349 Exercises_chapter1_Functional_Programming_in_Coq LateDays grade_comparison def
+R11352:11362 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R11364:11364 Exercises_chapter1_Functional_Programming_in_Coq <> g:74 var
+R11367:11367 Exercises_chapter1_Functional_Programming_in_Coq <> g:74 var
+R11371:11372 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+def 11759:11775 LateDays apply_late_policy
+R11790:11792 Coq.Init.Datatypes <> nat ind
+binder 11778:11786 <> late_days:75
+R11800:11804 Exercises_chapter1_Functional_Programming_in_Coq LateDays grade ind
+binder 11796:11796 <> g:76
+R11809:11813 Exercises_chapter1_Functional_Programming_in_Coq LateDays grade ind
+R11832:11835 Exercises_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'<?'_x not
+R11823:11831 Exercises_chapter1_Functional_Programming_in_Coq <> late_days:75 var
+R11864:11867 Exercises_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'<?'_x not
+R11855:11863 Exercises_chapter1_Functional_Programming_in_Coq <> late_days:75 var
+R11909:11912 Exercises_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'<?'_x not
+R11900:11908 Exercises_chapter1_Functional_Programming_in_Coq <> late_days:75 var
+R11956:11966 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R11969:11979 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R11982:11992 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R11994:11994 Exercises_chapter1_Functional_Programming_in_Coq <> g:76 var
+R11921:11931 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R11934:11944 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R11946:11946 Exercises_chapter1_Functional_Programming_in_Coq <> g:76 var
+R11876:11886 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R11888:11888 Exercises_chapter1_Functional_Programming_in_Coq <> g:76 var
+R11843:11843 Exercises_chapter1_Functional_Programming_in_Coq <> g:76 var
+prf 12009:12032 LateDays apply_late_policy_unfold
+R12058:12060 Coq.Init.Datatypes <> nat ind
+binder 12046:12054 <> late_days:77
+R12068:12072 Exercises_chapter1_Functional_Programming_in_Coq LateDays grade ind
+binder 12064:12064 <> g:78
+R12080:12080 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12110:12122 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12320:12320 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12081:12097 Exercises_chapter1_Functional_Programming_in_Coq LateDays apply_late_policy def
+R12099:12107 Exercises_chapter1_Functional_Programming_in_Coq <> late_days:77 var
+R12109:12109 Exercises_chapter1_Functional_Programming_in_Coq <> g:78 var
+R12135:12138 Exercises_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'<?'_x not
+R12126:12134 Exercises_chapter1_Functional_Programming_in_Coq <> late_days:77 var
+R12172:12175 Exercises_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'<?'_x not
+R12163:12171 Exercises_chapter1_Functional_Programming_in_Coq <> late_days:77 var
+R12222:12225 Exercises_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'<?'_x not
+R12213:12221 Exercises_chapter1_Functional_Programming_in_Coq <> late_days:77 var
+R12279:12289 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R12292:12302 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R12305:12315 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R12317:12317 Exercises_chapter1_Functional_Programming_in_Coq <> g:78 var
+R12234:12244 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R12247:12257 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R12259:12259 Exercises_chapter1_Functional_Programming_in_Coq <> g:78 var
+R12184:12194 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R12196:12196 Exercises_chapter1_Functional_Programming_in_Coq <> g:78 var
+R12146:12146 Exercises_chapter1_Functional_Programming_in_Coq <> g:78 var
+prf 12577:12605 LateDays no_penalty_for_mostly_on_time
+R12631:12633 Coq.Init.Datatypes <> nat ind
+binder 12619:12627 <> late_days:79
+R12641:12645 Exercises_chapter1_Functional_Programming_in_Coq LateDays grade ind
+binder 12637:12637 <> g:80
+R12653:12653 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12675:12683 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12668:12670 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12663:12666 Exercises_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'<?'_x not
+R12654:12662 Exercises_chapter1_Functional_Programming_in_Coq <> late_days:79 var
+R12671:12674 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R12713:12715 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12684:12700 Exercises_chapter1_Functional_Programming_in_Coq LateDays apply_late_policy def
+R12702:12710 Exercises_chapter1_Functional_Programming_in_Coq <> late_days:79 var
+R12712:12712 Exercises_chapter1_Functional_Programming_in_Coq <> g:80 var
+R12716:12716 Exercises_chapter1_Functional_Programming_in_Coq <> g:80 var
+R12760:12783 Exercises_chapter1_Functional_Programming_in_Coq LateDays apply_late_policy_unfold thm
+R12760:12783 Exercises_chapter1_Functional_Programming_in_Coq LateDays apply_late_policy_unfold thm
+R12760:12783 Exercises_chapter1_Functional_Programming_in_Coq LateDays apply_late_policy_unfold thm
+prf 13034:13051 LateDays grade_lowered_once
+R13077:13079 Coq.Init.Datatypes <> nat ind
+binder 13065:13073 <> late_days:81
+R13087:13091 Exercises_chapter1_Functional_Programming_in_Coq LateDays grade ind
+binder 13083:13083 <> g:82
+R13099:13099 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13122:13130 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13114:13116 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13109:13112 Exercises_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'<?'_x not
+R13100:13108 Exercises_chapter1_Functional_Programming_in_Coq <> late_days:81 var
+R13117:13121 Course_chapter1_Functional_Programming_in_Coq <> false constr
+R13131:13131 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13154:13162 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13147:13149 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13141:13144 Exercises_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'<?'_x not
+R13132:13140 Exercises_chapter1_Functional_Programming_in_Coq <> late_days:81 var
+R13150:13153 Course_chapter1_Functional_Programming_in_Coq <> true constr
+R13163:13163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13203:13211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13198:13200 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13164:13179 Exercises_chapter1_Functional_Programming_in_Coq LateDays grade_comparison def
+R13182:13186 Exercises_chapter1_Functional_Programming_in_Coq LateDays Grade constr
+R13188:13188 Exercises_chapter1_Functional_Programming_in_Coq LateDays F constr
+R13190:13194 Exercises_chapter1_Functional_Programming_in_Coq LateDays Minus constr
+R13197:13197 Exercises_chapter1_Functional_Programming_in_Coq <> g:82 var
+R13201:13202 Exercises_chapter1_Functional_Programming_in_Coq LateDays Lt constr
+R13212:13212 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13242:13246 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13260:13260 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13213:13229 Exercises_chapter1_Functional_Programming_in_Coq LateDays apply_late_policy def
+R13231:13239 Exercises_chapter1_Functional_Programming_in_Coq <> late_days:81 var
+R13241:13241 Exercises_chapter1_Functional_Programming_in_Coq <> g:82 var
+R13247:13257 Exercises_chapter1_Functional_Programming_in_Coq LateDays lower_grade def
+R13259:13259 Exercises_chapter1_Functional_Programming_in_Coq <> g:82 var
+R13324:13347 Exercises_chapter1_Functional_Programming_in_Coq LateDays apply_late_policy_unfold thm
+R13324:13347 Exercises_chapter1_Functional_Programming_in_Coq LateDays apply_late_policy_unfold thm
+R13324:13347 Exercises_chapter1_Functional_Programming_in_Coq LateDays apply_late_policy_unfold thm
+R13397:13404 Exercises_chapter1_Functional_Programming_in_Coq LateDays <> mod
+ind 13668:13670 <> bin
+constr 13686:13686 <> Z
+constr 13692:13693 <> B0
+constr 13709:13710 <> B1
+R13700:13702 Exercises_chapter1_Functional_Programming_in_Coq <> bin:83 ind
+binder 13696:13696 <> n:85
+R13717:13719 Exercises_chapter1_Functional_Programming_in_Coq <> bin:83 ind
+binder 13713:13713 <> n:86
+scheme 13668:13670 <> bin_rect
+scheme 13668:13670 <> bin_ind
+scheme 13668:13670 <> bin_rec
+scheme 13668:13670 <> bin_sind
+def 13734:13737 <> incr
+R13742:13744 Exercises_chapter1_Functional_Programming_in_Coq <> bin ind
+binder 13740:13740 <> m:87
+R13749:13751 Exercises_chapter1_Functional_Programming_in_Coq <> bin ind
+R13764:13764 Exercises_chapter1_Functional_Programming_in_Coq <> m:87 var
+R13775:13775 Exercises_chapter1_Functional_Programming_in_Coq <> Z constr
+R13780:13781 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R13783:13783 Exercises_chapter1_Functional_Programming_in_Coq <> Z constr
+R13789:13790 Exercises_chapter1_Functional_Programming_in_Coq <> B0 constr
+R13798:13799 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R13808:13809 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R13817:13818 Exercises_chapter1_Functional_Programming_in_Coq <> B0 constr
+R13821:13824 Exercises_chapter1_Functional_Programming_in_Coq <> incr:88 def
+def 13847:13856 <> bin_to_nat
+R13861:13863 Exercises_chapter1_Functional_Programming_in_Coq <> bin ind
+binder 13859:13859 <> m:90
+R13868:13870 Coq.Init.Datatypes <> nat ind
+R13883:13883 Exercises_chapter1_Functional_Programming_in_Coq <> m:90 var
+R13894:13894 Exercises_chapter1_Functional_Programming_in_Coq <> Z constr
+R13905:13906 Exercises_chapter1_Functional_Programming_in_Coq <> B0 constr
+R13908:13908 Exercises_chapter1_Functional_Programming_in_Coq <> Z constr
+R13919:13920 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R13922:13922 Exercises_chapter1_Functional_Programming_in_Coq <> Z constr
+R13933:13934 Exercises_chapter1_Functional_Programming_in_Coq <> B0 constr
+R13943:13944 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'*'_x not
+R13958:13958 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'*'_x not
+R13945:13954 Exercises_chapter1_Functional_Programming_in_Coq <> bin_to_nat:91 def
+R13964:13965 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R13974:13976 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'+'_x not
+R13978:13979 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'*'_x not
+R13993:13993 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'*'_x not
+R13980:13989 Exercises_chapter1_Functional_Programming_in_Coq <> bin_to_nat:91 def
+def 14011:14024 <> test_bin_incr1
+R14028:14028 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14040:14043 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14029:14032 Exercises_chapter1_Functional_Programming_in_Coq <> incr def
+R14035:14036 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R14038:14038 Exercises_chapter1_Functional_Programming_in_Coq <> Z constr
+R14044:14045 Exercises_chapter1_Functional_Programming_in_Coq <> B0 constr
+R14048:14049 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R14051:14051 Exercises_chapter1_Functional_Programming_in_Coq <> Z constr
+def 14089:14102 <> test_bin_incr2
+R14106:14106 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14123:14126 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14107:14110 Exercises_chapter1_Functional_Programming_in_Coq <> incr def
+R14113:14114 Exercises_chapter1_Functional_Programming_in_Coq <> B0 constr
+R14117:14118 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R14120:14120 Exercises_chapter1_Functional_Programming_in_Coq <> Z constr
+R14127:14128 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R14131:14132 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R14134:14134 Exercises_chapter1_Functional_Programming_in_Coq <> Z constr
+def 14172:14185 <> test_bin_incr3
+R14189:14189 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14206:14209 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14190:14193 Exercises_chapter1_Functional_Programming_in_Coq <> incr def
+R14196:14197 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R14200:14201 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R14203:14203 Exercises_chapter1_Functional_Programming_in_Coq <> Z constr
+R14210:14211 Exercises_chapter1_Functional_Programming_in_Coq <> B0 constr
+R14214:14215 Exercises_chapter1_Functional_Programming_in_Coq <> B0 constr
+R14218:14219 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R14221:14221 Exercises_chapter1_Functional_Programming_in_Coq <> Z constr
+def 14260:14273 <> test_bin_incr4
+R14299:14301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14277:14286 Exercises_chapter1_Functional_Programming_in_Coq <> bin_to_nat def
+R14289:14290 Exercises_chapter1_Functional_Programming_in_Coq <> B0 constr
+R14293:14294 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R14296:14296 Exercises_chapter1_Functional_Programming_in_Coq <> Z constr
+def 14346:14359 <> test_bin_incr5
+R14387:14389 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14363:14372 Exercises_chapter1_Functional_Programming_in_Coq <> bin_to_nat def
+R14375:14378 Exercises_chapter1_Functional_Programming_in_Coq <> incr def
+R14381:14382 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R14384:14384 Exercises_chapter1_Functional_Programming_in_Coq <> Z constr
+R14391:14393 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'+'_x not
+R14394:14403 Exercises_chapter1_Functional_Programming_in_Coq <> bin_to_nat def
+R14406:14407 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R14409:14409 Exercises_chapter1_Functional_Programming_in_Coq <> Z constr
+def 14447:14460 <> test_bin_incr6
+R14495:14497 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14464:14473 Exercises_chapter1_Functional_Programming_in_Coq <> bin_to_nat def
+R14476:14479 Exercises_chapter1_Functional_Programming_in_Coq <> incr def
+R14482:14485 Exercises_chapter1_Functional_Programming_in_Coq <> incr def
+R14488:14489 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R14491:14491 Exercises_chapter1_Functional_Programming_in_Coq <> Z constr
+R14499:14501 Course_chapter1_Functional_Programming_in_Coq <> ::nat_scope:x_'+'_x not
+R14502:14511 Exercises_chapter1_Functional_Programming_in_Coq <> bin_to_nat def
+R14514:14515 Exercises_chapter1_Functional_Programming_in_Coq <> B1 constr
+R14517:14517 Exercises_chapter1_Functional_Programming_in_Coq <> Z constr
